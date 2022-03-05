@@ -1,0 +1,3061 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+
+  
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* 
+{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body 
+{
+  font-size: 100%;
+  width: 100%;
+  height: auto;
+}
+
+#bloc_page
+{
+  width: 100%;
+  height: auto;
+  
+}
+
+h1
+{
+  font-size: 1.3em;
+}
+
+h2
+{
+  font-size: 1.0em;
+}
+p
+{
+  font-size: 0.9em;
+}
+/*-------------------------Header-------------------------------*/
+.index-header
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 5.30%;
+  
+  
+}
+
+.header-logo
+{
+  
+  display: flex;
+  margin-left: 10px;
+  width: 250px; 
+  
+  
+}
+
+.logo
+{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: auto;
+  min-width: 25%;
+  width: 120px ;
+  
+}
+
+
+.header-nav
+{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-right: 10px;
+  
+
+}
+
+.header-nav a
+{
+  display: flex;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  color: #0065FC;
+  height: 100px;
+  margin-right: 40px;
+
+
+}
+
+
+.header-nav a:hover
+{
+  border-top: 3px solid #0065FC;
+
+
+}
+/*-------------------Section recherche--------------------------*/
+
+
+.search-section
+{
+  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 12.21%;
+  margin: 10px;
+  
+}
+
+.trouver-hebergement
+{
+  
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 5px;
+  
+}
+
+.slogan
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 40px;
+  margin-right:40px ;
+  padding: 5px;
+  font-size: 1em;
+  
+}
+.search-form1
+{
+  
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  margin-left: 40px;
+  margin-top: -5px;
+}
+
+
+.position-fav
+{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2F2F2;
+  border-radius: 15px 0px 0px 15px;
+  border-right: 0px;
+  border: 1px solid #F2F2F2;
+  max-width: 50px;
+  min-width: 50px;
+  max-height: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+
+.fa-location-dot
+{
+  font-size: 1.2em;
+  
+}
+
+.input-search1
+{
+  min-width: 200px;
+  width: 283px;
+  height: 50px;
+  max-width: 283px;
+  max-height: 50px;
+  font-weight: bold;
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #F2F2F2;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+::placeholder
+{
+  display: flex;
+  position: absolute;
+  color: black;
+  margin-left: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 100%;
+  
+
+
+}
+
+.search-button
+{
+  background-color: #0065FC;
+  border: 1px solid #0065FC;
+  border-left: 0px;
+  border-radius: 0px 15px 15px 0px;
+  max-width: 132px;
+  max-height: 50px;
+  min-width: 50px;
+  width: 9.30%;
+  height: 50px;
+
+}
+
+button a
+{
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.search-icon
+{
+  display: none;
+}
+
+.search-form-filtre
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  width: 61.11%;
+  
+}
+
+.filtre-field-title
+{
+  font-size: 100%;
+  margin-right: 0px;
+}
+
+/*-------------Premier filtre de type checkbox stylisee------------*/
+
+.filtre1 /*correspond au balise label de la video*/
+{
+  position: relative;
+  margin: auto;
+  border-radius: 30px;
+  width: 180px ;
+  height: 50px;
+  cursor: pointer;
+
+}
+
+.filtre1 input
+{
+  position: relative;
+  z-index: 1;
+  margin: 14px;
+  appearance: none;
+
+}
+
+
+
+.filtre1 span
+{
+  
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  border: 2px solid #F2F2F2;
+  transition: 0.5s;
+}
+
+
+.filtre1 input:checked ~ span
+{
+  background-color: #0065FC;
+}
+
+
+.filtre1 span i
+{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-color: rgb(222, 235, 255);
+  color: #0065FC;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  transition-duration: 1s;
+  transition-property: transform;
+
+}
+
+.filtre1 input:checked ~ span i
+{
+  background-color:  rgb(222, 235, 255);
+  color: #0065FC ;
+}
+
+.filtre1 span p
+{
+  position: absolute;
+  margin-left: 55px;
+  font-weight: bold;
+  font-size: 100%;
+
+
+}
+
+.filtre1 input:checked ~ span p
+{
+  color: #F2F2F2;
+}
+
+.filtre1 span:hover
+{
+  background-color: #0065FC;
+  color: white;
+}
+
+.filtre1 i:hover
+{
+  transform: rotate(360deg);
+}
+
+/*----------------------------filtre 2-----------------------------*/
+
+.filtre2  /*correspond au balise label de la video*/
+{
+  position: relative;
+  margin: auto;
+  border-radius: 30px;
+  width: 150px ;
+  height: 50px;
+  cursor: pointer;
+
+}
+
+.filtre2 input
+{
+  position: relative;
+  z-index: 1;
+  margin: 14px;
+  appearance: none;
+
+}
+
+
+
+.filtre2 span
+{
+  
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  border: 2px solid #F2F2F2;
+  transition: 0.5s;
+}
+
+
+.filtre2 input:checked ~ span
+{
+  background-color: #0065FC;
+}
+
+
+.filtre2 span i
+{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-color: rgb(222, 235, 255);
+  color: #0065FC;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  transition-duration: 1s;
+  transition-property: transform;
+
+}
+
+.filtre2 input:checked ~ span i
+{
+  background-color:  rgb(222, 235, 255);
+  color: #0065FC ;
+}
+
+.filtre2 span p
+{
+  position: absolute;
+  margin-left: 55px;
+  font-weight: bold;
+  font-size: 100%;
+
+
+}
+
+.filtre2 input:checked ~ span p
+{
+  color: #F2F2F2;
+}
+
+.filtre2 span:hover
+{
+  background-color: #0065FC;
+  color: white;
+}
+
+.filtre2 i:hover
+{
+  transform: rotate(360deg);
+}
+
+/*------------------------------filtre 3-----------------------------*/
+
+.filtre3  /*correspond au balise label de la video*/
+{
+  position: relative;
+  margin: auto;
+  border-radius: 30px;
+  width: 170px ;
+  height: 50px;
+  cursor: pointer;
+
+}
+
+.filtre3  input
+{
+  position: relative;
+  z-index: 1;
+  margin: 14px;
+  appearance: none;
+
+}
+
+
+
+.filtre3  span
+{
+  
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  border: 2px solid #F2F2F2;
+  transition: 0.5s;
+}
+
+
+.filtre3  input:checked ~ span
+{
+  background-color: #0065FC;
+}
+
+
+.filtre3 span i
+{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-color: rgb(222, 235, 255);
+  color: #0065FC;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  transition-duration: 1s;
+  transition-property: transform;
+
+}
+
+.filtre3 input:checked ~ span i
+{
+  background-color:  rgb(222, 235, 255);
+  color: #0065FC ;
+}
+
+.filtre3 span p
+{
+  position: absolute;
+  margin-left: 55px;
+  font-weight: bold;
+  font-size: 100%;
+
+
+}
+
+.filtre3 input:checked ~ span p
+{
+  color: #F2F2F2;
+}
+
+.filtre3 span:hover
+{
+  background-color: #0065FC;
+  color: white;
+}
+
+.filtre3 i:hover
+{
+  transform: rotate(360deg);
+}
+
+/*----------------------------filtre 4-------------------------------*/
+
+.filtre4  /*correspond au balise label de la video*/
+{
+  position: relative;
+  margin: auto;
+  border-radius: 30px;
+  width: 220px ;
+  height: 50px;
+  cursor: pointer;
+
+}
+
+.filtre4   input
+{
+  position: relative;
+  z-index: 1;
+  margin: 14px;
+  appearance: none;
+
+}
+
+
+
+.filtre4   span
+{
+  
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  border: 2px solid #F2F2F2;
+  transition: 0.5s;
+}
+
+
+.filtre4   input:checked ~ span
+{
+  background-color: #0065FC;
+}
+
+
+.filtre4 span i
+{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-color: rgb(222, 235, 255);
+  color: #0065FC;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  transition-duration: 1s;
+  transition-property: transform;
+
+}
+
+.filtre4 input:checked ~ span i
+{
+  background-color:  rgb(222, 235, 255);
+  color: #0065FC ;
+}
+
+.filtre4 span p
+{
+  position: absolute;
+  margin-left: 55px;
+  font-weight: bold;
+  font-size: 100%;
+
+
+}
+
+.filtre4 input:checked ~ span p
+{
+  color: #F2F2F2;
+}
+
+.filtre4 span:hover
+{
+  background-color: #0065FC;
+  color: white;
+}
+
+.filtre4 i:hover
+{
+  transform: rotate(360deg);
+}
+
+/*-----------------Info de resultats de recherche---------------------*/
+
+.resultats-recherche-info
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  
+}
+
+.resultats-recherche-info i
+{
+  
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #F2F2F2;
+  color: #0065FC;
+  width: 23px;
+  height: 23px;
+ 
+}
+
+.resultats-recherche-info p
+{
+  margin-left: 5px;
+  font-size: 1em;
+ 
+}
+/*-------------------------------Main------------------------------*/
+
+main
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  
+}
+
+/*--------------section 2 Hebergement a Marseille---------------------*/
+
+.liste-hebergements-marseille
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+  width: 62%;
+  height: 33.23%;
+  margin-left: 40px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.liste-hebergements-marseille h1
+{
+  height:5% ;
+  width: 100%;
+  margin-left: 20px; 
+}
+
+.container-card
+{
+  width: 100%;
+  height: 64%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*---------------------Resultat 1 de recherche-----------------*/
+
+.underbox-card-1-2-3
+{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.resultat-card1
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  width: 33.33%;
+  height: 90%;
+  margin: 10px;
+ 
+   
+}
+
+
+
+.resultat-card1 img
+{
+  object-fit: cover;
+  margin: 0px;
+  margin-bottom: 0;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  height: 130px;
+  padding: 5px;
+ 
+  
+}
+
+
+.span-card-1-hebergement
+{
+  
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  padding-left: 10px;
+  margin-top: -10px;
+  width: 100%;
+  height: 36%;
+  
+}
+
+.resultat-card1 h2
+{
+  margin-top: 8px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.resultat-card1 p
+
+{
+  font-size: 0.9em;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  width: 100%;
+
+
+}
+
+span i 
+{
+  
+  display: inline;
+  width: 0.1em;
+  height: 0.1em;
+  margin-right: 12px;
+ 
+}
+
+.fa-star
+{
+  color: #0065FC;
+}
+
+.fa-star.no-color
+{
+  color:#F2F2F2;
+  
+}
+
+.resultat-card1:hover 
+{
+  transform: scale(1.2);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border: 1px solid #0065FC;
+}
+
+/*
+.resultat-card1:hover ~*
+{
+  filter: blur(3px);
+}
+*/
+
+/*-------------Resultat 2 de recherche--------------------------*/
+
+.resultat-card2
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  width: 33.33%;
+  height: 90%;
+  margin: 10px;
+  
+   
+}
+
+
+
+.resultat-card2 img
+{
+  
+  object-fit: cover;
+  margin: 0px;
+  margin-bottom: 0;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  height: 130px;
+  padding: 5px;
+  
+}
+
+.span-card-2-hebergement
+{
+   
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  padding-left: 10px;
+  margin-top: -10px;
+  width: 100%;
+  height: 36%;
+  
+}
+
+.resultat-card2 h2
+{
+  margin-top: 8px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.resultat-card2 p
+
+{
+  font-size: 0.9em;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  width: 100%;
+
+
+}
+
+.resultat-card2:hover 
+{
+  transform: scale(1.2);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border: 1px solid #0065FC;
+}
+
+
+
+/*------------------------Resultat de recherche 3---------------*/
+
+
+.resultat-card3
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  width: 33.33%;
+  height: 90%;
+  margin: 10px;
+  
+}
+
+
+
+.resultat-card3 img
+{
+  
+  
+  object-fit: cover;
+  margin: 0px;
+  margin-bottom: 0;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  height: 130px;
+  padding: 5px;
+  
+}
+
+
+.span-card-3-hebergement
+{
+   
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  padding-left: 10px;
+  margin-top: -10px;
+  width: 100%;
+  height: 36%;
+  
+}
+
+
+.resultat-card3 h2
+{
+  margin-top: 8px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.resultat-card3 p
+
+{
+  font-size: 0.9em;
+  margin-top: 2px;
+  margin-bottom: 4px;
+
+
+}
+
+.resultat-card3:hover 
+{
+  transform: scale(1.2);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border: 1px solid #0065FC;
+}
+
+/*---------------------Resultat de recherches 4-----------------*/
+
+.underbox-card-4-5-6
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.resultat-card4
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  width: 33.33%;
+  height: 90%;
+  margin: 10px;
+   
+}
+
+
+
+.resultat-card4 img
+{
+  
+ 
+  object-fit: cover;
+  margin: 0px;
+  margin-bottom: 0;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  height: 130px;
+  padding: 5px;
+  
+}
+
+
+.span-card-4-hebergement
+{
+   
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  padding-left: 10px;
+  margin-top: -10px;
+  width: 100%;
+  height: 70px;
+  
+}
+
+
+.resultat-card4 h2
+{
+  margin-top: 8px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.resultat-card4 p
+
+{
+  font-size: 0.9em;
+  margin-top: 2px;
+  margin-bottom: 4px;
+
+
+}
+
+.resultat-card4:hover 
+{
+  transform: scale(1.2);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border: 1px solid #0065FC;
+}
+
+
+/*-------------------------Resultat de recherche 5----------------*/
+
+
+.resultat-card5
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  width: 33.33%;
+  height: 90%;
+  margin: 10px;
+   
+}
+
+
+
+.resultat-card5 img
+{
+  
+
+  object-fit: cover;
+  margin: 0px;
+  margin-bottom: 0;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  height: 130px;
+  padding: 5px;
+  
+}
+
+
+.span-card-5-hebergement
+{
+   
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  padding-left: 10px;
+  margin-top: -10px;
+  width: 100%;
+  height: 70px;
+  
+}
+
+
+.resultat-card5 h2
+{
+
+  font-size: 1em;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.resultat-card5 p
+
+{
+  font-size: 0.9em;
+  margin-top: 2px;
+  margin-bottom: 4px;
+
+
+}
+
+.resultat-card5:hover 
+{
+  transform: scale(1.2);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border: 1px solid #0065FC;
+}
+
+/*-----------------Resultat de recherches 6---------------------*/
+
+
+.resultat-card6
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  width: 33.33%;
+  height: 90%;
+  margin: 10px;
+   
+}
+
+
+
+.resultat-card6 img
+{
+  
+  
+  object-fit: cover;
+  margin: 0px;
+  margin-bottom: 0;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  height: 130px;
+  padding: 5px;
+  
+}
+
+
+.span-card-6-hebergement
+{
+   
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  padding-left: 10px;
+  margin-top: -10px;
+  width: 100%;
+  height: 70px;
+  
+}
+
+.resultat-card6 h2
+{
+
+  font-size: 1em;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.resultat-card6 p
+
+{
+  font-size: 0.9em;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+.resultat-card6:hover 
+{
+  transform: scale(1.2);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border: 1px solid #0065FC;
+}
+
+/*---------------------Afficher plus link---------------*/
+
+.afficher-plus 
+{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.lien-page-afficherplus
+{
+  max-width: 880px;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.liste-hebergements-marseille a
+{
+  text-decoration: none;
+  color: black;
+}
+
+/*--------------------Aside 'Les plus populaire'---------------------*/
+
+
+
+
+aside
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+  width: 29.5%;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 40px;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.aside-titre-fav
+{
+ display: flex;
+ flex-wrap: nowrap;
+ width: 100%;
+ align-items: center;
+ align-content: center;
+ justify-content: space-between;
+}
+
+aside h2
+{
+  font-size: 1.3em;
+}
+
+
+.container-aside-card
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 144px;
+  height: auto;
+}
+
+/*------------------------Aside carte 1---------------------------*/
+
+
+
+.aside-card-1
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  width: 100%;
+  min-width: 144px;
+  height: 144px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+  
+
+}
+
+.image-aside-card-1
+{
+  display: flex;
+  width: 38%;
+  height: 144px;
+  align-items: center;
+  align-content: center;
+  margin-right: 3px;
+  
+  
+}
+
+.image-aside-card-1 img
+{
+  object-fit: cover;
+  min-width: 132px;
+  width: 100%;
+  height: 144px;
+  padding: 5px;
+  margin-top: 4px;
+  border-radius: 20px 0px 0px 20px;
+  
+  
+  
+}
+
+.aside-card-1-span
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 0px 20px 20px 0px;
+  padding: 5px;
+  width: 100%;
+  height: 134px;
+  
+}
+
+.aside-card-1 h2
+{
+
+  font-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 0%;
+  width: 80%;
+}
+
+.aside-card-1 p
+
+{
+  font-size: 0.9em;
+  top: 5px;
+  margin-top: -15px;
+  width: 100%;
+  
+}
+
+.aside-card-1 i
+{
+  display: inline;
+  width: 0.1em;
+  height: 0.1em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 16px;
+}
+
+.aside-card-1:hover
+{
+  transform: scale(1.1);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border: 1px solid #0065FC;
+}
+
+
+/*-------------------------Aside carte 2--------------------------*/
+
+
+
+
+.aside-card-2
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  width: 100%;
+  max-height: 144px;
+  height: 144px;
+  
+
+}
+
+.image-aside-card-2
+{
+  display: flex;
+  width: 38%;
+  height: 144px;
+  align-items: center;
+  align-content: center;
+  margin-right: 3px;
+  
+  
+}
+
+.image-aside-card-2 img
+{
+  object-fit: cover;
+  min-width: 132px;
+  width: 100%;
+  height: 144px;
+  padding: 5px;
+  margin-top: 4px;
+  border-radius: 20px 0px 0px 20px;
+   
+} 
+
+.aside-card-2 span
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 0px 20px 20px 0px;
+  padding: 5px;
+  width: 100%;
+  height: 134px;
+  
+  
+  
+  
+}
+
+.aside-card-2 h2
+{
+
+  font-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 0%;
+  width: 80%;
+}
+
+.aside-card-2 p
+
+{
+  font-size: 0.9em;
+  top: 5px;
+  margin-top: -15px;
+  width: 100%;
+  
+}
+
+.aside-card-2 i
+{
+  display: inline;
+  width: 0.1em;
+  height: 0.1em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 16px;
+}
+
+.aside-card-2:hover
+{
+  transform: scale(1.1);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border: 1px solid #0065FC;
+}
+
+/*----------------------------Aside carte 3-----------------------*/
+
+.aside-card-3
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  width: 100%;
+  max-height: 144px;
+  height: 144px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  
+
+}
+
+.image-aside-card-3
+{
+  display: flex;
+  width: 38%;
+  height: 144px;
+  align-items: center;
+  align-content: center;
+  margin-right: 3px;
+  
+  
+}
+
+.image-aside-card-3 img
+{
+  object-fit: cover;
+  min-width: 132px;
+  width: 100%;
+  height: 144px;
+  padding: 5px;
+  margin-top: 4px;
+  border-radius: 20px 0px 0px 20px;
+   
+} 
+.aside-card-3 span
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 0px 20px 20px 0px;
+  padding: 5px;
+  width: 100%;
+  height: 134px;
+  
+  
+}
+
+.aside-card-3 h2
+{
+
+  font-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 0%;
+  width: 80%;
+}
+
+.aside-card-3 p
+
+{
+  font-size: 0.9em;
+  top: 5px;
+  margin-top: -15px;
+  width: 100%;
+  
+}
+
+.aside-card-3 i
+{
+  display: inline;
+  width: 0.1em;
+  height: 0.1em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 16px;
+}
+.aside-card-3:hover
+{
+  transform: scale(1.1);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border: 1px solid #0065FC;
+}
+
+
+/*------------------------------Section Activitees a Marseille-----------------------*/
+
+.activites-marseille
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 94.5%;
+  height: 24%;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+   
+}
+
+/*------------------------------------Carte 1----------------------------------------*/
+.underbox-for-breakpoint-1
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-right: 30px;
+  
+  
+}
+
+.activites-card-1
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  margin-right: 45px;
+  width: 46%;
+  height: 445px;
+}
+
+.activites-card-1 img
+{
+  object-fit: cover;
+  width: 100%;
+  height: 445px;
+  border-radius: 20px 20px 20px 20px;
+  
+}
+
+.activites-card-1 span
+{
+  position: relative;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+  bottom: 56px;
+  height: 56px;
+}
+
+.activites-card-1 h2
+{
+  font-size: 1em;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.activites-card-1:hover
+{
+  transform: scale(1.1);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+ 
+}
+
+
+
+/*------------------------------Rassemblement en colonne des Carte 1 et 2------------------------------*/
+
+.card-2-3
+{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  width: 46%;
+  height: 445px;
+
+}
+
+/*------------------------------------Carte 2----------------------------------------*/
+
+.card-2-3 .activites-card-2
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  width: 100%;
+  height: 235px;
+}
+
+.activites-card-2 img
+{
+  object-fit: cover;
+  width: 100%;
+  height: 235px;
+  border-radius: 20px 20px 20px 20px;
+  
+}
+
+.activites-card-2 span
+{
+ 
+  position: relative;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+  bottom: 56px;
+  height: 56px;
+}
+
+.activites-card-2 h2
+{
+  font-size: 1em;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.activites-card-2:hover
+{
+  transform: scale(1.1);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  
+}
+
+
+
+/*------------------------------------Carte 3----------------------------------------*/
+
+.card-2-3 .activites-card-3
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  width: 100%;
+  height: 166px;
+}
+
+.activites-card-3 img
+{
+  object-fit: cover;
+  width: 100%;
+  height: 166px;
+  border-radius: 20px 20px 20px 20px;
+  
+}
+
+.activites-card-3 span
+{
+  position: relative;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+  bottom: 56px;
+  height: 56px;
+}
+
+.activites-card-3 h2
+{
+  font-size: 1em;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.activites-card-3:hover
+{
+  transform: scale(1.1);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  
+}
+
+
+
+/*------------------------------------Carte 4----------------------------------------*/
+.underbox-for-breakpoint-2
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  
+}
+
+
+.activites-card-4
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  margin-right: 45px;
+  width: 46%;
+  height: 445px;
+}
+
+.activites-card-4 img
+{
+  object-fit: cover;
+  width: 100%;
+  height: 445px;
+  border-radius: 20px 20px 20px 20px;
+  
+}
+
+.activites-card-4 span
+{
+  position: relative;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+  bottom: 56px;
+  height: 56px;
+}
+
+.activites-card-4 h2
+{
+  font-size: 1em;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.activites-card-4:hover
+{
+  transform: scale(1.1);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  
+}
+
+
+
+/*------------------------------Rassemblement en colonne des Carte 5 et 6------------------------------*/
+
+
+.card-5-6
+{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin: 0px;
+  width: 46%;
+  height: 445px;
+
+}
+
+/*------------------------------------Carte 5----------------------------------------*/
+
+.activites-card-5
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  width: 100%;
+  height: 196px;
+}
+
+.activites-card-5 img
+{
+  object-fit: cover;
+  width: 100%;
+  height: 196px;
+  border-radius: 20px 20px 20px 20px;
+  
+}
+
+.activites-card-5 span
+{
+  position: relative;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+  bottom: 56px;
+  height: 56px;
+}
+
+.activites-card-5 h2
+{
+  font-size: 1em;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.activites-card-5:hover
+{
+  transform: scale(1.1);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  
+}
+
+
+/*------------------------------------Carte 6----------------------------------------*/
+
+.activites-card-6
+{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  width: 100%;
+  height: 209px;
+}
+
+.activites-card-6 img
+{
+  object-fit: cover;
+  width: 100%;
+  height: 209px;
+  border-radius: 20px 20px 20px 20px;
+  
+}
+
+.activites-card-6 span
+{
+  position: relative;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+  bottom: 56px;
+  height: 56px;
+}
+
+.activites-card-6 h2
+{
+  font-size: 1em;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.activites-card-6:hover
+{
+  transform: scale(1.1);
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  
+}
+
+/*---------------------------------------------Footer----------------------------------------------*/
+
+.index-footer
+{
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  width: 100%;
+  height: 12%;
+}
+
+
+/*-----------------------------------Liste nav index footer 1--------------------------------------*/
+
+.footer-nav-1
+{
+  width: 302px;
+  height: 185px;
+}
+
+.footer-nav-1 h2
+{
+  font-size: 1.3em;
+}
+
+.footer-nav-1 ul
+{
+  
+  padding: 0px;
+  margin: 0px;
+}
+.footer-nav-1 li
+{
+  list-style: none;
+  padding: 0px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.lien-footer
+{
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+/*-----------------------------------Liste nav index footer 2--------------------------------------*/
+
+
+.footer-nav-2
+{
+  width: 302px;
+  height: 185px;
+}
+
+.footer-nav-2 h2
+{
+  font-size: 1.3em;
+}
+
+.footer-nav-2 ul
+{
+  
+  padding: 0px;
+  margin: 0px;
+}
+.footer-nav-2 li
+{
+  list-style: none;
+  padding: 0px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+
+/*-----------------------------------Liste nav index footer 1--------------------------------------*/
+
+.footer-nav-3
+{
+
+  width: 302px;
+  height: 185px;
+}
+
+.footer-nav-3 h2
+{
+  font-size: 1.3em;
+}
+
+.footer-nav-3 ul
+{
+  
+  padding: 0px;
+  margin: 0px;
+}
+.footer-nav-3 li
+{
+  list-style: none;
+  padding: 0px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+
+/*---------------------------------Media Queries-----------------------------------*/
+
+
+
+@media screen and  (max-width: 1400px) /*rajout d'un breakpoint*/
+{
+  #bloc_page
+  {
+    width: 100%;
+    height: auto;
+  }
+  h2, p 
+  {
+    font-size: 95%;
+  }
+
+  .search-form-filtre
+  {
+    flex-wrap: nowrap;
+    
+  }
+  .filtre1, .filtre2,.filtre3,.filtre4
+  {
+    margin: 5px;
+  }
+
+  .resultats-recherche-info p
+  {
+    font-size: 100%;
+  }
+
+  main 
+  {
+    height: auto;
+  }
+
+  .liste-hebergements-marseille
+    {    
+      order: 2;
+      width: 93.5%;            
+    }
+
+  aside
+  {
+    order: 1;
+    width: 94%;
+    height: 40%;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .image-aside-card-1 img 
+  {
+    width: 100%;
+  }
+
+  .aside-card-1 span
+  {
+    width: 180%;
+  }
+
+  .aside-card-1 span h2 
+  {
+    font-size: 110%;
+  }
+
+  .aside-card-1 span p 
+  {
+    font-size: 110%;
+  }
+
+  
+
+  .image-aside-card-2 img 
+  {
+    width: 105%;
+  }
+
+  .aside-card-2 span
+  {
+    width: 180%;
+  }
+
+  .aside-card-2 span h2 
+  {
+    font-size: 110%;
+  }
+  
+  .aside-card-2 span p 
+  {
+    font-size: 110%;
+  }
+
+
+  .image-aside-card-3 img 
+  {
+    width: 150%;
+  }
+
+  .aside-card-3 span
+  {
+    width: 180%;
+  }
+
+  .aside-card-3 span h2 
+  {
+    font-size: 110%;
+  }
+  
+  .aside-card-3 span p 
+  {
+    font-size: 110%;
+  }
+ 
+  .activites-marseille
+  {
+    width: 94%;
+    order: 3;
+    margin-bottom: 40px;
+  }
+
+  .index-footer
+  {
+    height: auto;
+  }
+
+}
+
+/*-----------------------------Breakpoint 1280px--------------------------------*/
+
+
+@media screen and (max-width:1280px)
+{
+  .search-form-filtre
+  {
+    width: 50%;
+    flex-wrap: wrap;
+  }
+}   
+
+/*----------------------------Breakpoint 1249px--------------------------------*/
+
+
+@media screen and (max-width:1249px)
+{
+  .search-form-filtre
+  {
+    width: 40%;
+    flex-wrap: wrap;
+  }
+
+  .image-aside-card-2 img 
+  {
+    width: 100%;
+  }
+
+  .aside-card-2 span
+  {
+    width: 180%;
+  }
+
+
+  .image-aside-card-3 img 
+  {
+    width: 140%;
+  }
+
+  .aside-card-3 span
+  {
+    width: 180%;   
+  }
+
+  .activites-marseille
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .underbox-for-breakpoint-1, .underbox-for-breakpoint-2
+  {
+    width: 100%;
+    height: auto;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+  
+}      
+
+/*-----------------------------Breakpoint 1210px--------------------------------*/
+
+@media screen and (max-width:1210px)
+{
+
+  .image-aside-card-3 img 
+  {
+    width: 135%;
+  }
+
+  .aside-card-3 span
+  {
+    width: 180%;
+  }
+  
+} 
+
+/*-------------------------------Breakpoint 1176px-----------------------------*/
+
+@media screen and (max-width:1176px)
+{
+
+  .image-aside-card-3 img 
+  {
+    width: 130%;
+  }
+
+  .aside-card-3 span
+  {
+    width: 180%;
+  }
+  
+}  
+
+/*------------------------------Breakpoint 1133px------------------------------*/
+
+
+
+@media screen and (max-width:1133px)
+{
+
+  .image-aside-card-3 img 
+  {
+    width: 125%;
+  }
+
+  .aside-card-3 span
+  {
+    width: 180%;
+  }
+  
+} 
+
+/*-----------------------------Breakpoint 1092px--------------------------------*/
+
+
+@media screen and (max-width:1092px)
+{
+  .search-button 
+  {
+    border-radius: 20px;
+  }
+
+  .search
+  {
+    display: none;
+  }
+
+
+  .search-icon
+  {
+    display: inline;
+    font-size: 150%;
+  }
+
+  .image-aside-card-3 img 
+  {
+    width: 120%;
+  }
+
+  .aside-card-3 span
+  {
+    width: 180%;
+  }
+
+  
+} 
+
+/*----------------------------Breakpoint 1043px--------------------------------*/
+
+
+
+@media screen and (max-width:1043px)
+{
+
+  .search-icon
+  {
+    display: inline;
+    font-size: 120%;
+  }
+
+  .search-form-filtre
+  {
+    width: 30%;
+    flex-wrap: wrap;
+  }
+
+  .image-aside-card-3 img 
+  {
+    width: 115%;
+  }
+
+  .aside-card-3 span
+  {
+    width: 180%;
+  }
+  
+} 
+
+/*----------------------------Breakpoint 1011px--------------------------------*/
+
+
+
+@media screen and (max-width:1011px)
+{
+
+  .image-aside-card-3 img 
+  {
+    width: 110%;
+  }
+
+  .aside-card-3 span
+  {
+    width: 180%;
+  }
+  
+}
+
+/*----------------------------Breakpoint 992px--------------------------------*/
+
+
+
+@media screen and  (max-width: 992px)
+{
+
+  .logo
+  {
+    margin-left: 45px;
+  }
+
+  .search-form-filtre
+  {
+    width: 20%;
+    flex-wrap: wrap;
+  }
+  .filtre4 span p
+  {
+    position: absolute;
+    margin-left: 55px;
+    bottom: -13px;
+    font-weight: bold;
+    font-size: 100%;
+  }
+
+  main
+  {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  h2 
+  {
+   font-size: 90%;
+  }
+
+  p 
+  {
+   font-size: 50%;
+  }
+
+  .liste-hebergements-marseille, aside, .activites-marseille
+  {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .image-aside-card-3 img 
+  {
+    width: 105%;
+  }
+
+  .aside-card-3 span
+  {
+    width: 180%;
+  }
+
+  .activites-marseille
+  {
+    margin-bottom: 10px;
+  }
+
+
+  .card-2-3, .card-5-6
+  {
+    margin-left: 15px;
+  }
+
+
+  .index-footer
+  {
+    margin-top: 0;
+    flex-wrap: nowrap;   
+  }
+   
+  
+  }
+
+ /*-----------------------------Breakpoint 900px-------------------------------*/ 
+
+
+
+@media screen and  (max-width: 900px)
+{
+  
+  .search-form-filtre
+  {
+    width: 60%;
+  }
+
+
+  .filtre4 span p
+  {
+    position: absolute;
+    margin-left: 55px;
+    bottom: -5px;
+    font-weight: bold;
+    font-size: 100%;
+  }
+
+  
+}
+
+/*-----------------------------Breakpoint 854px-------------------------------*/
+
+
+
+@media screen and  (max-width: 854px)
+{
+
+  .card-2-3, .card-5-6
+  {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  .activites-card-1, .activites-card-2, .activites-card-3, .activites-card-4, .activites-card-5 .activites-card-6
+  {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+/*-----------------------------Breakpoint 768px-------------------------------*/
+
+
+
+@media screen and  (max-width: 768px)
+{
+
+  .underbox-card-1-2-3, .underbox-card-4-5-6
+  {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .resultat-card1, .resultat-card2, .resultat-card3, .resultat-card4, .resultat-card5, .resultat-card6
+  {
+    width: 80%;
+    height: 100%;
+  }
+}
+
+
+/*-----------------------------Breakpoint 500px-------------------------------*/
+
+
+
+@media screen and  (max-width: 500px)
+{
+
+  .index-header
+  {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .header-logo
+  {
+    margin-top: 40px;
+    margin-left: 60%;
+    width: 100%;
+  }
+  
+
+  .header-nav
+  {
+    justify-content: stretch;
+    width: 90%;
+    margin: 0;   
+  }
+ 
+  .link-hebergements
+  {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+  }
+
+  .link-activites
+  {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;   
+  }
+
+  .header-nav a
+
+  {
+    font-size: 100%;
+    border-bottom: 1px solid #F2F2F2;
+    margin: 0;    
+  }
+
+  .header-nav a:hover
+  {
+    border-top: none;
+    border-bottom: 3px solid #0065FC;
+  }
+  
+  .input-search1
+  {
+    width: 45%;
+  }
+  .search-icon
+  {
+    display: inline;
+    font-size: 100%;
+  }
+
+  .search-section
+  {
+    margin-right: 0px;
+  }
+  
+  .trouver-hebergement, .slogan, .search-form1, .search-form-filtre, .resultats-recherche-info
+  {
+    margin-left: 10px;
+  }
+
+  .filtre4 span p
+  {
+    position: absolute;
+    margin-left: 55px;
+    bottom: -5px;
+    font-weight: bold;
+    font-size: 100%;
+  }
+
+  .resultats-recherche-info 
+  {
+    flex-wrap: nowrap;
+    height: auto;   
+  }
+
+  .resultats-recherche-info i
+  {
+    align-self: flex-start;
+    margin-top: 13px;  
+  }
+  
+  main 
+  {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .liste-hebergements-marseille
+  {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+  }
+
+  .container-card, .underbox-card-1-2-3, .underbox-card-4-5-6
+  {
+    width: 100%;
+    height: auto;   
+  }
+
+  .resultat-card1,.resultat-card2, .resultat-card3,.resultat-card4,.resultat-card5,.resultat-card6
+  {
+    width: 100%;
+    height: auto;
+    font-size: 95%;
+  }
+  
+  aside 
+  {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .aside-card-1-span, .aside-card-2 span
+  {
+    width: 80%;
+    font-size: 80%;
+    margin-left: 5px;
+  }
+
+  .aside-card-3 span
+  {
+    width: 80%;
+    font-size: 80%;
+    margin-left: 12px;
+  }
+
+  .aside-card-1-span h2
+  {
+    font-size: 25%;
+  }
+  .activites-marseille
+  {
+    margin-bottom: 0px;
+  }
+
+  .activites-card-1, .activites-card-4
+  {
+     width: 100%;
+     height: 190px;      
+  }
+
+  .card-2-3, .card-5-6
+  {
+    width: 100%;
+    height: 420px;    
+  }
+  .card-2-3 .activites-card-2
+  {
+    width: 100%;
+    height: 190px;   
+  }
+
+  .activites-card-3
+  {
+    width: 100%;
+    height: 190px;
+  }
+
+  .activites-card-5, .activites-card-6
+  {
+    width: 100%;
+    height: 190px;
+  }
+
+  .activites-card-1 img, .activites-card-2 img, .activites-card-3 img, .activites-card-4 img, .activites-card-5 img, .activites-card-6 img 
+  {
+    width: 100%;
+    height: 190px ;    
+  } 
+
+  .index-footer
+  {
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+ 
+ 
+}
