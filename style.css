@@ -527,6 +527,7 @@ p
 .fa-location-dot
 {
   font-size: 1.2em;
+  margin-bottom: 15px;
   
 }
 
@@ -558,8 +559,12 @@ p
 
 }
 
-.search-button
+.button
 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
   background-color: #0065FC;
   border: 1px solid #0065FC;
   border-left: 0px;
@@ -569,10 +574,11 @@ p
   min-width: 50px;
   width: 9.30%;
   height: 50px;
+  
 
 }
 
-button a
+.button a
 {
   text-decoration: none;
   color: white;
@@ -630,7 +636,7 @@ button a
 
 
 
-.filtre1 span
+.filtre1 div
 {
   
   background-color: white;
@@ -645,13 +651,13 @@ button a
 }
 
 
-.filtre1 input:checked ~ span
+.filtre1 input:checked ~ div
 {
   background-color: #0065FC;
 }
 
 
-.filtre1 span i
+.filtre1 div i
 {
   display: flex;
   align-items: center;
@@ -670,13 +676,13 @@ button a
 
 }
 
-.filtre1 input:checked ~ span i
+.filtre1 input:checked ~ div i
 {
   background-color:  rgb(222, 235, 255);
   color: #0065FC ;
 }
 
-.filtre1 span p
+.filtre1 div p
 {
   position: absolute;
   margin-left: 55px;
@@ -686,12 +692,12 @@ button a
 
 }
 
-.filtre1 input:checked ~ span p
+.filtre1 input:checked ~ div p
 {
   color: #F2F2F2;
 }
 
-.filtre1 span:hover
+.filtre1 div:hover
 {
   background-color: #0065FC;
   color: white;
@@ -726,7 +732,7 @@ button a
 
 
 
-.filtre2 span
+.filtre2 div
 {
   
   background-color: white;
@@ -741,13 +747,13 @@ button a
 }
 
 
-.filtre2 input:checked ~ span
+.filtre2 input:checked ~ div
 {
   background-color: #0065FC;
 }
 
 
-.filtre2 span i
+.filtre2 div i
 {
   display: flex;
   align-items: center;
@@ -766,13 +772,13 @@ button a
 
 }
 
-.filtre2 input:checked ~ span i
+.filtre2 input:checked ~ div i
 {
   background-color:  rgb(222, 235, 255);
   color: #0065FC ;
 }
 
-.filtre2 span p
+.filtre2 div p
 {
   position: absolute;
   margin-left: 55px;
@@ -782,12 +788,12 @@ button a
 
 }
 
-.filtre2 input:checked ~ span p
+.filtre2 input:checked ~ div p
 {
   color: #F2F2F2;
 }
 
-.filtre2 span:hover
+.filtre2 div:hover
 {
   background-color: #0065FC;
   color: white;
@@ -822,7 +828,7 @@ button a
 
 
 
-.filtre3  span
+.filtre3  div
 {
   
   background-color: white;
@@ -837,13 +843,13 @@ button a
 }
 
 
-.filtre3  input:checked ~ span
+.filtre3  input:checked ~ div
 {
   background-color: #0065FC;
 }
 
 
-.filtre3 span i
+.filtre3 div i
 {
   display: flex;
   align-items: center;
@@ -862,13 +868,13 @@ button a
 
 }
 
-.filtre3 input:checked ~ span i
+.filtre3 input:checked ~ div i
 {
   background-color:  rgb(222, 235, 255);
   color: #0065FC ;
 }
 
-.filtre3 span p
+.filtre3 div p
 {
   position: absolute;
   margin-left: 55px;
@@ -878,12 +884,12 @@ button a
 
 }
 
-.filtre3 input:checked ~ span p
+.filtre3 input:checked ~ div p
 {
   color: #F2F2F2;
 }
 
-.filtre3 span:hover
+.filtre3 div:hover
 {
   background-color: #0065FC;
   color: white;
@@ -918,7 +924,7 @@ button a
 
 
 
-.filtre4   span
+.filtre4   div
 {
   
   background-color: white;
@@ -933,13 +939,13 @@ button a
 }
 
 
-.filtre4   input:checked ~ span
+.filtre4   input:checked ~ div
 {
   background-color: #0065FC;
 }
 
 
-.filtre4 span i
+.filtre4 div i
 {
   display: flex;
   align-items: center;
@@ -958,13 +964,13 @@ button a
 
 }
 
-.filtre4 input:checked ~ span i
+.filtre4 input:checked ~ div i
 {
   background-color:  rgb(222, 235, 255);
   color: #0065FC ;
 }
 
-.filtre4 span p
+.filtre4 div p
 {
   position: absolute;
   margin-left: 55px;
@@ -974,12 +980,12 @@ button a
 
 }
 
-.filtre4 input:checked ~ span p
+.filtre4 input:checked ~ div p
 {
   color: #F2F2F2;
 }
 
-.filtre4 span:hover
+.filtre4 div:hover
 {
   background-color: #0065FC;
   color: white;
@@ -1153,7 +1159,7 @@ main
 
 }
 
-span i 
+div i 
 {
   
   display: inline;
@@ -1642,26 +1648,17 @@ aside h2
   margin-bottom: 20px;
   
   
+  
 
 }
 
-.image-aside-card-1
-{
-  display: flex;
-  width: 38%;
-  height: 144px;
-  align-items: center;
-  align-content: center;
-  margin-right: 3px;
-  
-  
-}
 
-.image-aside-card-1 img
+
+.aside-card-1 img
 {
   object-fit: cover;
   min-width: 132px;
-  width: 100%;
+  width: 38%;
   height: 144px;
   padding: 5px;
   margin-top: 4px;
@@ -1669,9 +1666,10 @@ aside h2
   
   
   
+  
 }
 
-.aside-card-1-span
+.aside-card-1 div
 {
   display: flex;
   flex-direction: row;
@@ -1680,6 +1678,7 @@ aside h2
   padding: 5px;
   width: 100%;
   height: 134px;
+  
   
 }
 
@@ -1741,19 +1740,8 @@ aside h2
 
 }
 
-.image-aside-card-2
-{
-  display: flex;
-  width: 38%;
-  height: 144px;
-  align-items: center;
-  align-content: center;
-  margin-right: 3px;
-  
-  
-}
 
-.image-aside-card-2 img
+.aside-card-2 img
 {
   object-fit: cover;
   min-width: 132px;
@@ -1765,7 +1753,7 @@ aside h2
    
 } 
 
-.aside-card-2 span
+.aside-card-2 div
 {
   display: flex;
   flex-direction: row;
@@ -1836,19 +1824,8 @@ aside h2
 
 }
 
-.image-aside-card-3
-{
-  display: flex;
-  width: 38%;
-  height: 144px;
-  align-items: center;
-  align-content: center;
-  margin-right: 3px;
-  
-  
-}
 
-.image-aside-card-3 img
+.aside-card-3 img
 {
   object-fit: cover;
   min-width: 132px;
@@ -1859,7 +1836,7 @@ aside h2
   border-radius: 20px 0px 0px 20px;
    
 } 
-.aside-card-3 span
+.aside-card-3 div
 {
   display: flex;
   flex-direction: row;
@@ -1958,7 +1935,7 @@ aside h2
   
 }
 
-.activites-card-1 span
+.activites-card-1 div
 {
   position: relative;
   background-color: white;
@@ -2020,7 +1997,7 @@ aside h2
   
 }
 
-.activites-card-2 span
+.activites-card-2 div
 {
  
   position: relative;
@@ -2069,7 +2046,7 @@ aside h2
   
 }
 
-.activites-card-3 span
+.activites-card-3 div
 {
   position: relative;
   background-color: white;
@@ -2127,7 +2104,7 @@ aside h2
   
 }
 
-.activites-card-4 span
+.activites-card-4 div
 {
   position: relative;
   background-color: white;
@@ -2191,7 +2168,7 @@ aside h2
   
 }
 
-.activites-card-5 span
+.activites-card-5 div
 {
   position: relative;
   background-color: white;
@@ -2238,7 +2215,7 @@ aside h2
   
 }
 
-.activites-card-6 span
+.activites-card-6 div
 {
   position: relative;
   background-color: white;
@@ -2429,17 +2406,17 @@ aside h2
     width: 100%;
   }
 
-  .aside-card-1 span
+  .aside-card-1 div
   {
     width: 180%;
   }
 
-  .aside-card-1 span h2 
+  .aside-card-1 div h2 
   {
     font-size: 110%;
   }
 
-  .aside-card-1 span p 
+  .aside-card div p 
   {
     font-size: 110%;
   }
@@ -2451,17 +2428,17 @@ aside h2
     width: 105%;
   }
 
-  .aside-card-2 span
+  .aside-card-2 div
   {
     width: 180%;
   }
 
-  .aside-card-2 span h2 
+  .aside-card-2 div h2 
   {
     font-size: 110%;
   }
   
-  .aside-card-2 span p 
+  .aside-card-2 div p 
   {
     font-size: 110%;
   }
@@ -2472,17 +2449,17 @@ aside h2
     width: 150%;
   }
 
-  .aside-card-3 span
+  .aside-card-3 div
   {
     width: 180%;
   }
 
-  .aside-card-3 span h2 
+  .aside-card-3 div h2 
   {
     font-size: 110%;
   }
   
-  .aside-card-3 span p 
+  .aside-card-3 div p 
   {
     font-size: 110%;
   }
@@ -2529,7 +2506,7 @@ aside h2
     width: 100%;
   }
 
-  .aside-card-2 span
+  .aside-card-2 div
   {
     width: 180%;
   }
@@ -2540,7 +2517,7 @@ aside h2
     width: 140%;
   }
 
-  .aside-card-3 span
+  .aside-card-3 div
   {
     width: 180%;   
   }
@@ -2572,7 +2549,7 @@ aside h2
     width: 135%;
   }
 
-  .aside-card-3 span
+  .aside-card-3 div
   {
     width: 180%;
   }
@@ -2589,7 +2566,7 @@ aside h2
     width: 130%;
   }
 
-  .aside-card-3 span
+  .aside-card-3 div
   {
     width: 180%;
   }
@@ -2608,7 +2585,7 @@ aside h2
     width: 125%;
   }
 
-  .aside-card-3 span
+  .aside-card-3 div
   {
     width: 180%;
   }
@@ -2642,7 +2619,7 @@ aside h2
     width: 120%;
   }
 
-  .aside-card-3 span
+  .aside-card-3 div
   {
     width: 180%;
   }
@@ -2674,7 +2651,7 @@ aside h2
     width: 115%;
   }
 
-  .aside-card-3 span
+  .aside-card-3 div
   {
     width: 180%;
   }
@@ -2693,7 +2670,7 @@ aside h2
     width: 110%;
   }
 
-  .aside-card-3 span
+  .aside-card-3 div
   {
     width: 180%;
   }
@@ -2717,7 +2694,7 @@ aside h2
     width: 20%;
     flex-wrap: wrap;
   }
-  .filtre4 span p
+  .filtre4 div p
   {
     position: absolute;
     margin-left: 55px;
@@ -2755,7 +2732,7 @@ aside h2
     width: 105%;
   }
 
-  .aside-card-3 span
+  .aside-card-3 div
   {
     width: 180%;
   }
@@ -2794,7 +2771,7 @@ aside h2
   }
 
 
-  .filtre4 span p
+  .filtre4 div p
   {
     position: absolute;
     margin-left: 55px;
@@ -2846,6 +2823,13 @@ aside h2
   {
     width: 80%;
     height: 100%;
+  }
+  .index-footer
+  {
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 0px;
   }
 }
 
@@ -2936,7 +2920,7 @@ aside h2
     margin-left: 10px;
   }
 
-  .filtre4 span p
+  .filtre4 div p
   {
     position: absolute;
     margin-left: 55px;
@@ -2991,21 +2975,21 @@ aside h2
     padding: 20px;
   }
 
-  .aside-card-1-span, .aside-card-2 span
+  .aside-card-1 div, .aside-card-2 div
   {
-    width: 80%;
+    width: 100%;
     font-size: 80%;
     margin-left: 5px;
   }
 
-  .aside-card-3 span
+  .aside-card-3 div
   {
     width: 80%;
     font-size: 80%;
     margin-left: 12px;
   }
 
-  .aside-card-1-span h2
+  .aside-card-1 h2
   {
     font-size: 25%;
   }
@@ -3049,13 +3033,5 @@ aside h2
     height: 190px ;    
   } 
 
-  .index-footer
-  {
-    justify-content: space-between;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 0px;
-  }
- 
  
 }
