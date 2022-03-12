@@ -1,499 +1,115 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
-/* Document
-   ========================================================================== */
-
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-
- html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-  }
-  
-  /* Sections
-     ========================================================================== */
-  
-  /**
-   * Remove the margin in all browsers.
-   */
-  
-  body {
-    margin: 0;
-  }
-  
-  /**
-   * Render the `main` element consistently in IE.
-   */
-  
-  main {
-    display: block;
-  }
-  
-  /**
-   * Correct the font size and margin on `h1` elements within `section` and
-   * `article` contexts in Chrome, Firefox, and Safari.
-   */
-  
-  h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-  }
-  
-  /* Grouping content
-     ========================================================================== */
-  
-  /**
-   * 1. Add the correct box sizing in Firefox.
-   * 2. Show the overflow in Edge and IE.
-   */
-  
-  hr {
-    box-sizing: content-box; /* 1 */
-    height: 0; /* 1 */
-    overflow: visible; /* 2 */
-  }
-  
-  /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
-   */
-  
-  pre {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
-  }
-  
-  /* Text-level semantics
-     ========================================================================== */
-  
-  /**
-   * Remove the gray background on active links in IE 10.
-   */
-  
-  a {
-    background-color: transparent;
-  }
-  
-  /**
-   * 1. Remove the bottom border in Chrome 57-
-   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
-   */
-  
-  abbr[title] {
-    border-bottom: none; /* 1 */
-    text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
-  }
-  
-  /**
-   * Add the correct font weight in Chrome, Edge, and Safari.
-   */
-  
-  b,
-  strong {
-    font-weight: bolder;
-  }
-  
-  /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
-   */
-  
-  code,
-  kbd,
-  samp {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
-  }
-  
-  /**
-   * Add the correct font size in all browsers.
-   */
-  
-  small {
-    font-size: 80%;
-  }
-  
-  /**
-   * Prevent `sub` and `sup` elements from affecting the line height in
-   * all browsers.
-   */
-  
-  sub,
-  sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-  }
-  
-  sub {
-    bottom: -0.25em;
-  }
-  
-  sup {
-    top: -0.5em;
-  }
-  
-  /* Embedded content
-     ========================================================================== */
-  
-  /**
-   * Remove the border on images inside links in IE 10.
-   */
-  
-  img {
-    border-style: none;
-  }
-  
-  /* Forms
-     ========================================================================== */
-  
-  /**
-   * 1. Change the font styles in all browsers.
-   * 2. Remove the margin in Firefox and Safari.
-   */
-  
-  button,
-  input,
-  optgroup,
-  select,
-  textarea {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
-    margin: 0; /* 2 */
-  }
-  
-  /**
-   * Show the overflow in IE.
-   * 1. Show the overflow in Edge.
-   */
-  
-  button,
-  input { /* 1 */
-    overflow: visible;
-  }
-  
-  /**
-   * Remove the inheritance of text transform in Edge, Firefox, and IE.
-   * 1. Remove the inheritance of text transform in Firefox.
-   */
-  
-  button,
-  select { /* 1 */
-    text-transform: none;
-  }
-  
-  /**
-   * Correct the inability to style clickable types in iOS and Safari.
-   */
-  
-  button,
-  [type="button"],
-  [type="reset"],
-  [type="submit"] {
-    -webkit-appearance: button;
-  }
-  
-  /**
-   * Remove the inner border and padding in Firefox.
-   */
-  
-  button::-moz-focus-inner,
-  [type="button"]::-moz-focus-inner,
-  [type="reset"]::-moz-focus-inner,
-  [type="submit"]::-moz-focus-inner {
-    border-style: none;
-    padding: 0;
-  }
-  
-  /**
-   * Restore the focus styles unset by the previous rule.
-   */
-  
-  button:-moz-focusring,
-  [type="button"]:-moz-focusring,
-  [type="reset"]:-moz-focusring,
-  [type="submit"]:-moz-focusring {
-    outline: 1px dotted ButtonText;
-  }
-  
-  /**
-   * Correct the padding in Firefox.
-   */
-  
-  fieldset {
-    padding: 0.35em 0.75em 0.625em;
-  }
-  
-  /**
-   * 1. Correct the text wrapping in Edge and IE.
-   * 2. Correct the color inheritance from `fieldset` elements in IE.
-   * 3. Remove the padding so developers are not caught out when they zero out
-   *    `fieldset` elements in all browsers.
-   */
-  
-  legend {
-    box-sizing: border-box; /* 1 */
-    color: inherit; /* 2 */
-    display: table; /* 1 */
-    max-width: 100%; /* 1 */
-    padding: 0; /* 3 */
-    white-space: normal; /* 1 */
-  }
-  
-  /**
-   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
-   */
-  
-  progress {
-    vertical-align: baseline;
-  }
-  
-  /**
-   * Remove the default vertical scrollbar in IE 10+.
-   */
-  
-  textarea {
-    overflow: auto;
-  }
-  
-  /**
-   * 1. Add the correct box sizing in IE 10.
-   * 2. Remove the padding in IE 10.
-   */
-  
-  [type="checkbox"],
-  [type="radio"] {
-    box-sizing: border-box; /* 1 */
-    padding: 0; /* 2 */
-  }
-  
-  /**
-   * Correct the cursor style of increment and decrement buttons in Chrome.
-   */
-  
-  [type="number"]::-webkit-inner-spin-button,
-  [type="number"]::-webkit-outer-spin-button {
-    height: auto;
-  }
-  
-  /**
-   * 1. Correct the odd appearance in Chrome and Safari.
-   * 2. Correct the outline style in Safari.
-   */
-  
-  [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    outline-offset: -2px; /* 2 */
-  }
-  
-  /**
-   * Remove the inner padding in Chrome and Safari on macOS.
-   */
-  
-  [type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
-  }
-  
-  /**
-   * 1. Correct the inability to style clickable types in iOS and Safari.
-   * 2. Change font properties to `inherit` in Safari.
-   */
-  
-  ::-webkit-file-upload-button {
-    -webkit-appearance: button; /* 1 */
-    font: inherit; /* 2 */
-  }
-  
-  /* Interactive
-     ========================================================================== */
-  
-  /*
-   * Add the correct display in Edge, IE 10+, and Firefox.
-   */
-  
-  details {
-    display: block;
-  }
-  
-  /*
-   * Add the correct display in all browsers.
-   */
-  
-  summary {
-    display: list-item;
-  }
-  
-  /* Misc
-     ========================================================================== */
-  
-  /**
-   * Add the correct display in IE 10+.
-   */
-  
-  template {
-    display: none;
-  }
-  
-  /**
-   * Add the correct display in IE 10.
-   */
-  
-  [hidden] {
-    display: none;
-  }
-
-  
-
-
 
   @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+  @import url('normalize.css');
 * 
 {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
 
+html
+{
+  margin: 0px;
+  padding: 0px;
+}
 body 
 {
   font-size: 100%;
   width: 100%;
   height: auto;
+  padding: 0px;
+  margin: 0px;
 }
 
-#bloc_page
+#container
 {
   width: 100%;
   height: auto;
+  padding: 40px;
   
 }
 
 h1
 {
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
 
 h2
 {
-  font-size: 1.0em;
+  font-size: 1.3em;
 }
 p
 {
-  font-size: 0.9em;
+  font-size: 1.2em;
 }
 /*-------------------------Header-------------------------------*/
 .index-header
 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  width: 100%; 
+}
+
+.navigation__header
+{
+  display: flex;
+  align-items: center;
+  align-content: center;
   justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  width: 100%;
-  height: 5.30%;
-  
+  width: 100%;     
   
 }
 
-.header-logo
-{
-  
-  display: flex;
-  margin-left: 10px;
-  width: 250px; 
-  
-  
-}
-
-.logo
-{
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  margin-left: 40px;
-  margin-right: auto;
-  min-width: 25%;
-  width: 120px ;
+.navigation__header img
+{ 
+  width: 124px ;
+  height: 60px; 
   
 }
 
 
-.header-nav
+.navigation__header li
 {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  margin-right: 10px;
+  list-style: none;
+  display: inline;
   
-
 }
 
-.header-nav a
+.navigation__header li a
 {
-  display: flex;
   text-decoration: none;
   font-weight: 500;
-  text-align: center;
-  align-items: center;
-  align-content: center;
   color: #0065FC;
-  height: 100px;
-  margin-right: 40px;
-
-
+  margin-left: 40px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 
-.header-nav a:hover
+.navigation__header li a:hover
 {
   border-top: 3px solid #0065FC;
-
-
+  
 }
 /*-------------------Section recherche--------------------------*/
 
 
 .search-section
-{
-  
+{ 
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 12.21%;
-  margin: 10px;
-  
+  width: 100%; 
 }
 
-.trouver-hebergement
+.titre p
 {
-  
-  display: flex;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding: 5px;
-  
-}
-
-.slogan
-{
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 40px;
-  margin-right:40px ;
-  padding: 5px;
   font-size: 1em;
-  
+  margin: 0px;
+  padding: 0px;
 }
+
+/*-------------------barre de recherche--------------------------*/
+
 .search-form1
 {
   
@@ -501,16 +117,14 @@ p
   align-items: center;
   align-content: center;
   width: 100%;
-  margin-left: 40px;
-  margin-top: -5px;
+  
 }
 
-
-.position-fav
+.search-form1 i
 {
   display: flex;
-  align-content: center;
   align-items: center;
+  align-content: center;
   justify-content: center;
   background-color: #F2F2F2;
   border-radius: 15px 0px 0px 15px;
@@ -521,17 +135,16 @@ p
   max-height: 50px;
   width: 50px;
   height: 50px;
-}
+  margin: 0px;
 
+}
 
 .fa-location-dot
 {
-  font-size: 1.2em;
-  margin-bottom: 15px;
-  
+  font-size: 1.2em;  
 }
 
-.input-search1
+.search-form1  input
 {
   min-width: 200px;
   width: 283px;
@@ -539,10 +152,7 @@ p
   max-width: 283px;
   max-height: 50px;
   font-weight: bold;
-  border-top: 1px solid #F2F2F2;
-  border-bottom: 1px solid #F2F2F2;
-  border-left: 0px;
-  border-right: 0px;
+  border: 1px solid #F2F2F2;
 }
 
 ::placeholder
@@ -553,13 +163,11 @@ p
   margin-left: 20px;
   margin-top: 12px;
   margin-bottom: 12px;
-  font-size: 100%;
+  font-size: 130%;
   
-
-
 }
 
-.button
+.search-form1 a, .search-form1 a i, .search-form1 .search-icon
 {
   display: flex;
   align-items: center;
@@ -574,11 +182,11 @@ p
   min-width: 50px;
   width: 9.30%;
   height: 50px;
-  
-
 }
 
-.button a
+
+
+.search, .search-icon
 {
   text-decoration: none;
   color: white;
@@ -586,12 +194,18 @@ p
   font-weight: bold;
 }
 
-.search-icon
+.search-form1 .search-icon
 {
   display: none;
+
+
 }
 
-.search-form-filtre
+/*------------- Filtres flexbox------------*/
+
+
+
+.filtres
 {
   display: flex;
   flex-direction: row;
@@ -599,439 +213,134 @@ p
   align-items: center;
   align-content: center;
   justify-content: space-between;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 40px;
-  width: 61.11%;
-  
+  width: 70%;
+  margin-top: 20px;  
 }
 
-.filtre-field-title
+.filtres h2
 {
   font-size: 100%;
   margin-right: 0px;
 }
 
-/*-------------Premier filtre de type checkbox stylisee------------*/
+/*-------------filtre stylisation------------*/
 
-.filtre1 /*correspond au balise label de la video*/
-{
-  position: relative;
-  margin: auto;
-  border-radius: 30px;
-  width: 180px ;
-  height: 50px;
-  cursor: pointer;
-
-}
-
-.filtre1 input
-{
-  position: relative;
-  z-index: 1;
-  margin: 14px;
-  appearance: none;
-
-}
-
-
-
-.filtre1 div
-{
-  
-  background-color: white;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  border-radius: 40px;
-  border: 2px solid #F2F2F2;
-  transition: 0.5s;
-}
-
-
-.filtre1 input:checked ~ div
-{
-  background-color: #0065FC;
-}
-
-
-.filtre1 div i
+.filtre1, .filtre2, .filtre3, .filtre4
 {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  border-radius: 40px;
+  border: 2px solid #F2F2F2;
+  border-left: rgb(222, 235, 255);
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.filtre1
+{
+  width: 175px;
+}
+
+.filtre2
+{
+  width: 150px;
+}
+
+.filtre3
+{
+  width: 170px;
+}
+
+.filtre4
+{
+  width: 210px;
+}
+
+.filtre1 i, .filtre2 i, .filtre3 i, .filtre4 i
+{
+  display: flex;
+  flex-direction: row;
   align-items: center;
   align-content: center;
   justify-content: center;
-  position: absolute;
-  top: -2px;
-  left: -2px;
   background-color: rgb(222, 235, 255);
   color: #0065FC;
   border-radius: 30px;
+  min-width: 50px;
+  min-height: 50px;
   width: 50px;
   height: 50px;
+  margin: 0px;
   transition-duration: 1s;
   transition-property: transform;
-
 }
 
-.filtre1 input:checked ~ div i
+.filtre1 p, .filtre2 p, .filtre3 p, .filtre4 p
 {
-  background-color:  rgb(222, 235, 255);
-  color: #0065FC ;
-}
-
-.filtre1 div p
-{
-  position: absolute;
-  margin-left: 55px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: bold;
-  font-size: 100%;
-
-
+  font-size: 120%;
+  padding: 0px;
 }
 
-.filtre1 input:checked ~ div p
-{
-  color: #F2F2F2;
-}
-
-.filtre1 div:hover
+.filtre1:hover, .filtre2:hover, .filtre3:hover, .filtre4:hover
 {
   background-color: #0065FC;
   color: white;
 }
-
-.filtre1 i:hover
+.filtre1 p:hover, .filtre2 p:hover, .filtre3 p:hover, .filtre4 p:hover
 {
-  transform: rotate(360deg);
-}
-
-/*----------------------------filtre 2-----------------------------*/
-
-.filtre2  /*correspond au balise label de la video*/
-{
-  position: relative;
-  margin: auto;
-  border-radius: 30px;
-  width: 150px ;
-  height: 50px;
-  cursor: pointer;
-
-}
-
-.filtre2 input
-{
-  position: relative;
-  z-index: 1;
-  margin: 14px;
-  appearance: none;
-
-}
-
-
-
-.filtre2 div
-{
-  
-  background-color: white;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  border-radius: 40px;
-  border: 2px solid #F2F2F2;
-  transition: 0.5s;
-}
-
-
-.filtre2 input:checked ~ div
-{
-  background-color: #0065FC;
-}
-
-
-.filtre2 div i
-{
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-color: rgb(222, 235, 255);
-  color: #0065FC;
-  border-radius: 30px;
-  width: 50px;
-  height: 50px;
-  transition-duration: 1s;
-  transition-property: transform;
-
-}
-
-.filtre2 input:checked ~ div i
-{
-  background-color:  rgb(222, 235, 255);
-  color: #0065FC ;
-}
-
-.filtre2 div p
-{
-  position: absolute;
-  margin-left: 55px;
-  font-weight: bold;
-  font-size: 100%;
-
-
-}
-
-.filtre2 input:checked ~ div p
-{
-  color: #F2F2F2;
-}
-
-.filtre2 div:hover
-{
-  background-color: #0065FC;
   color: white;
 }
 
-.filtre2 i:hover
-{
-  transform: rotate(360deg);
-}
-
-/*------------------------------filtre 3-----------------------------*/
-
-.filtre3  /*correspond au balise label de la video*/
-{
-  position: relative;
-  margin: auto;
-  border-radius: 30px;
-  width: 170px ;
-  height: 50px;
-  cursor: pointer;
-
-}
-
-.filtre3  input
-{
-  position: relative;
-  z-index: 1;
-  margin: 14px;
-  appearance: none;
-
-}
-
-
-
-.filtre3  div
-{
-  
-  background-color: white;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  border-radius: 40px;
-  border: 2px solid #F2F2F2;
-  transition: 0.5s;
-}
-
-
-.filtre3  input:checked ~ div
-{
-  background-color: #0065FC;
-}
-
-
-.filtre3 div i
-{
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-color: rgb(222, 235, 255);
-  color: #0065FC;
-  border-radius: 30px;
-  width: 50px;
-  height: 50px;
-  transition-duration: 1s;
-  transition-property: transform;
-
-}
-
-.filtre3 input:checked ~ div i
-{
-  background-color:  rgb(222, 235, 255);
-  color: #0065FC ;
-}
-
-.filtre3 div p
-{
-  position: absolute;
-  margin-left: 55px;
-  font-weight: bold;
-  font-size: 100%;
-
-
-}
-
-.filtre3 input:checked ~ div p
-{
-  color: #F2F2F2;
-}
-
-.filtre3 div:hover
-{
-  background-color: #0065FC;
-  color: white;
-}
-
-.filtre3 i:hover
-{
-  transform: rotate(360deg);
-}
-
-/*----------------------------filtre 4-------------------------------*/
-
-.filtre4  /*correspond au balise label de la video*/
-{
-  position: relative;
-  margin: auto;
-  border-radius: 30px;
-  width: 220px ;
-  height: 50px;
-  cursor: pointer;
-
-}
-
-.filtre4   input
-{
-  position: relative;
-  z-index: 1;
-  margin: 14px;
-  appearance: none;
-
-}
-
-
-
-.filtre4   div
-{
-  
-  background-color: white;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  border-radius: 40px;
-  border: 2px solid #F2F2F2;
-  transition: 0.5s;
-}
-
-
-.filtre4   input:checked ~ div
-{
-  background-color: #0065FC;
-}
-
-
-.filtre4 div i
-{
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-color: rgb(222, 235, 255);
-  color: #0065FC;
-  border-radius: 30px;
-  width: 50px;
-  height: 50px;
-  transition-duration: 1s;
-  transition-property: transform;
-
-}
-
-.filtre4 input:checked ~ div i
-{
-  background-color:  rgb(222, 235, 255);
-  color: #0065FC ;
-}
-
-.filtre4 div p
-{
-  position: absolute;
-  margin-left: 55px;
-  font-weight: bold;
-  font-size: 100%;
-
-
-}
-
-.filtre4 input:checked ~ div p
-{
-  color: #F2F2F2;
-}
-
-.filtre4 div:hover
-{
-  background-color: #0065FC;
-  color: white;
-}
-
-.filtre4 i:hover
+.filtre1 i:hover, .filtre2 i:hover, .filtre3 i:hover, .filtre4 i:hover 
 {
   transform: rotate(360deg);
 }
 
 /*-----------------Info de resultats de recherche---------------------*/
 
-.resultats-recherche-info
+.resultats-recherche-info, .resultats-recherche-info i
 {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
-  align-content: center;
-  margin-top: 10px;
-  margin-left: 40px;
-  margin-bottom: 10px;
-  
 }
+
+.resultats-recherche-info
+{ 
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+}
+
+
 
 .resultats-recherche-info i
 {
-  
-  display: flex;
-  align-items: center;
-  align-content: center;
   justify-content: center;
   border-radius: 50%;
   background-color: white;
-  border: 1px solid #F2F2F2;
+  border: 2px solid #F2F2F2;
   color: #0065FC;
-  width: 23px;
-  height: 23px;
- 
+  min-width: 20px;
+  min-height: 20px;
+  width: 20px;
+  height: 20px;
+  font-size: 0.9em;
+  margin-bottom: 3px;
 }
+
 
 .resultats-recherche-info p
 {
-  margin-left: 5px;
-  font-size: 1em;
- 
+  margin-left: 10px;
+  font-size: 1.0em;
 }
 /*-------------------------------Main------------------------------*/
 
@@ -1050,113 +359,111 @@ main
 
 /*--------------section 2 Hebergement a Marseille---------------------*/
 
-.liste-hebergements-marseille
+.hebergement-marseille
 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: #F2F2F2;
-  width: 62%;
-  height: 33.23%;
-  margin-left: 40px;
+  width: 65.5%;
+  height: 30%;
   border-radius: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
-.liste-hebergements-marseille h1
+.hebergement-marseille h1
 {
   height:5% ;
   width: 100%;
-  margin-left: 20px; 
 }
 
 .container-card
 {
-  width: 100%;
-  height: 64%;
-  display: flex;
+  height: 35%;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: space-between;
 }
 
-/*---------------------Resultat 1 de recherche-----------------*/
-
-.underbox-card-1-2-3
+.container-card,.underbox
 {
-  
   display: flex;
   flex-direction: row;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*---------------------Resultats de recherche-----------------*/
+
+.underbox
+{
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  width: 100%;
-  height: auto;
+  height: 230px;
+  
 }
 
-.resultat-card1
+.resultat__card1, .resultat__card2, .resultat__card3, .resultat__card4, .resultat__card5, .resultat__card6
 {
   display: flex;
   flex-direction: column;
   background-color: white;
   box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border: none;
   border-radius: 20px;
   width: 33.33%;
-  height: 90%;
-  margin: 10px;
- 
-   
+  height: 199px;
+  margin: 17px;
+  padding: 5px;
+    
 }
 
-
-
-.resultat-card1 img
+.resultat__card1 img, .resultat__card2 img, .resultat__card3 img, .resultat__card4 img, .resultat__card5 img,.resultat__card6 img
 {
   object-fit: cover;
-  margin: 0px;
-  margin-bottom: 0;
   width: 100%;
   border-radius: 20px 20px 0px 0px;
-  height: 130px;
-  padding: 5px;
- 
+  height: 57%;
+  padding-bottom: 0px;
   
 }
 
-
-.span-card-1-hebergement
+.resultat__card1 div, .resultat__card2 div, .resultat__card3 div, .resultat__card4 div, .resultat__card5 div, .resultat__card6 div
 {
-  
+  text-align: left;
   background-color: white;
   border-radius: 0px 0px 20px 20px;
-  padding-left: 10px;
-  margin-top: -10px;
+  border: none;
   width: 100%;
-  height: 36%;
+  height: 41%;
   
 }
 
-.resultat-card1 h2
+div h2, div p, div i
+{
+  margin-left: 10px;
+}
+
+div h2, div p
+{
+  font-size: 110%;
+  width: 100%;
+}
+
+.resultat__card1 h2, .resultat__card2 h2, .resultat__card3 h2, .resultat__card4 h2, .resultat__card5 h2, .resultat__card6 h2
 {
   margin-top: 8px;
   margin-bottom: 0px;
-  width: 100%;
 }
 
-.resultat-card1 p
+.resultat__card1 p, .resultat__card2 p, .resultat__card3 p, .resultat__card4 p, .resultat__card5 p, .resultat__card6 p
 
 {
-  font-size: 0.9em;
   margin-top: 2px;
   margin-bottom: 4px;
-  width: 100%;
-
-
 }
 
 div i 
@@ -1165,8 +472,7 @@ div i
   display: inline;
   width: 0.1em;
   height: 0.1em;
-  margin-right: 12px;
- 
+  margin-top: 4px;
 }
 
 .fa-star
@@ -1180,401 +486,16 @@ div i
   
 }
 
-.resultat-card1:hover 
+.resultat__card1:hover,.resultat__card2:hover,.resultat__card3:hover,.resultat__card4:hover,.resultat__card5:hover,.resultat__card6:hover
 {
-  transform: scale(1.2);
+  transform: scale(1.1);
   box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
   border: 1px solid #0065FC;
 }
 
-/*
-.resultat-card1:hover ~*
+.afficher-plus a
 {
-  filter: blur(3px);
-}
-*/
-
-/*-------------Resultat 2 de recherche--------------------------*/
-
-.resultat-card2
-{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border-radius: 20px;
-  width: 33.33%;
-  height: 90%;
-  margin: 10px;
-  
-   
-}
-
-
-
-.resultat-card2 img
-{
-  
-  object-fit: cover;
-  margin: 0px;
-  margin-bottom: 0;
   width: 100%;
-  border-radius: 20px 20px 0px 0px;
-  height: 130px;
-  padding: 5px;
-  
-}
-
-.span-card-2-hebergement
-{
-   
-  background-color: white;
-  border-radius: 0px 0px 20px 20px;
-  padding-left: 10px;
-  margin-top: -10px;
-  width: 100%;
-  height: 36%;
-  
-}
-
-.resultat-card2 h2
-{
-  margin-top: 8px;
-  margin-bottom: 0px;
-  width: 100%;
-}
-
-.resultat-card2 p
-
-{
-  font-size: 0.9em;
-  margin-top: 2px;
-  margin-bottom: 4px;
-  width: 100%;
-
-
-}
-
-.resultat-card2:hover 
-{
-  transform: scale(1.2);
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border: 1px solid #0065FC;
-}
-
-
-
-/*------------------------Resultat de recherche 3---------------*/
-
-
-.resultat-card3
-{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border-radius: 20px;
-  width: 33.33%;
-  height: 90%;
-  margin: 10px;
-  
-}
-
-
-
-.resultat-card3 img
-{
-  
-  
-  object-fit: cover;
-  margin: 0px;
-  margin-bottom: 0;
-  width: 100%;
-  border-radius: 20px 20px 0px 0px;
-  height: 130px;
-  padding: 5px;
-  
-}
-
-
-.span-card-3-hebergement
-{
-   
-  background-color: white;
-  border-radius: 0px 0px 20px 20px;
-  padding-left: 10px;
-  margin-top: -10px;
-  width: 100%;
-  height: 36%;
-  
-}
-
-
-.resultat-card3 h2
-{
-  margin-top: 8px;
-  margin-bottom: 0px;
-  width: 100%;
-}
-
-.resultat-card3 p
-
-{
-  font-size: 0.9em;
-  margin-top: 2px;
-  margin-bottom: 4px;
-
-
-}
-
-.resultat-card3:hover 
-{
-  transform: scale(1.2);
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border: 1px solid #0065FC;
-}
-
-/*---------------------Resultat de recherches 4-----------------*/
-
-.underbox-card-4-5-6
-{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  width: 100%;
-  height: auto;
-}
-
-.resultat-card4
-{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border-radius: 20px;
-  width: 33.33%;
-  height: 90%;
-  margin: 10px;
-   
-}
-
-
-
-.resultat-card4 img
-{
-  
- 
-  object-fit: cover;
-  margin: 0px;
-  margin-bottom: 0;
-  width: 100%;
-  border-radius: 20px 20px 0px 0px;
-  height: 130px;
-  padding: 5px;
-  
-}
-
-
-.span-card-4-hebergement
-{
-   
-  background-color: white;
-  border-radius: 0px 0px 20px 20px;
-  padding-left: 10px;
-  margin-top: -10px;
-  width: 100%;
-  height: 70px;
-  
-}
-
-
-.resultat-card4 h2
-{
-  margin-top: 8px;
-  margin-bottom: 0px;
-  width: 100%;
-}
-
-.resultat-card4 p
-
-{
-  font-size: 0.9em;
-  margin-top: 2px;
-  margin-bottom: 4px;
-
-
-}
-
-.resultat-card4:hover 
-{
-  transform: scale(1.2);
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border: 1px solid #0065FC;
-}
-
-
-/*-------------------------Resultat de recherche 5----------------*/
-
-
-.resultat-card5
-{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border-radius: 20px;
-  width: 33.33%;
-  height: 90%;
-  margin: 10px;
-   
-}
-
-
-
-.resultat-card5 img
-{
-  
-
-  object-fit: cover;
-  margin: 0px;
-  margin-bottom: 0;
-  width: 100%;
-  border-radius: 20px 20px 0px 0px;
-  height: 130px;
-  padding: 5px;
-  
-}
-
-
-.span-card-5-hebergement
-{
-   
-  background-color: white;
-  border-radius: 0px 0px 20px 20px;
-  padding-left: 10px;
-  margin-top: -10px;
-  width: 100%;
-  height: 70px;
-  
-}
-
-
-.resultat-card5 h2
-{
-
-  font-size: 1em;
-  margin-top: 8px;
-  margin-bottom: 0px;
-  width: 100%;
-}
-
-.resultat-card5 p
-
-{
-  font-size: 0.9em;
-  margin-top: 2px;
-  margin-bottom: 4px;
-
-
-}
-
-.resultat-card5:hover 
-{
-  transform: scale(1.2);
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border: 1px solid #0065FC;
-}
-
-/*-----------------Resultat de recherches 6---------------------*/
-
-
-.resultat-card6
-{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border-radius: 20px;
-  width: 33.33%;
-  height: 90%;
-  margin: 10px;
-   
-}
-
-
-
-.resultat-card6 img
-{
-  
-  
-  object-fit: cover;
-  margin: 0px;
-  margin-bottom: 0;
-  width: 100%;
-  border-radius: 20px 20px 0px 0px;
-  height: 130px;
-  padding: 5px;
-  
-}
-
-
-.span-card-6-hebergement
-{
-   
-  background-color: white;
-  border-radius: 0px 0px 20px 20px;
-  padding-left: 10px;
-  margin-top: -10px;
-  width: 100%;
-  height: 70px;
-  
-}
-
-.resultat-card6 h2
-{
-
-  font-size: 1em;
-  margin-top: 8px;
-  margin-bottom: 0px;
-  width: 100%;
-}
-
-.resultat-card6 p
-
-{
-  font-size: 0.9em;
-  margin-top: 2px;
-  margin-bottom: 4px;
-}
-
-.resultat-card6:hover 
-{
-  transform: scale(1.2);
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border: 1px solid #0065FC;
-}
-
-/*---------------------Afficher plus link---------------*/
-
-.afficher-plus 
-{
-  display: flex;
-  width: 100%;
-  height: auto;
-}
-
-.lien-page-afficherplus
-{
-  max-width: 880px;
-  width: 100%;
-  font-size: 1.2em;
-}
-
-.liste-hebergements-marseille a
-{
   text-decoration: none;
   color: black;
 }
@@ -1592,17 +513,11 @@ aside
   background-color: #F2F2F2;
   width: 29.5%;
   height: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 40px;
   border-radius: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
-.aside-titre-fav
+.aside__titre-fav
 {
  display: flex;
  flex-wrap: nowrap;
@@ -1612,9 +527,9 @@ aside
  justify-content: space-between;
 }
 
-aside h2
+.aside__titre-fav i
 {
-  font-size: 1.3em;
+  margin-right: 20px;
 }
 
 
@@ -1628,11 +543,11 @@ aside h2
   height: auto;
 }
 
-/*------------------------Aside carte 1---------------------------*/
+/*------------------------Aside cartes ---------------------------*/
 
 
 
-.aside-card-1
+.aside__card_1, .aside__card_2, .aside__card_3 
 {
   display: flex;
   flex-direction: row;
@@ -1640,250 +555,61 @@ aside h2
   align-content: center;
   background-color: white;
   box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border: none;
   border-radius: 20px;
   width: 100%;
   min-width: 144px;
-  height: 144px;
-  margin-top: 10px;
+  height: 139px;
+  margin-top: 20px;
   margin-bottom: 20px;
-  
-  
-  
-
+  padding: 5px;
 }
 
-
-
-.aside-card-1 img
+.aside__card_1 img, .aside__card_2 img, .aside__card_3 img
 {
   object-fit: cover;
   min-width: 132px;
   width: 38%;
-  height: 144px;
-  padding: 5px;
-  margin-top: 4px;
-  border-radius: 20px 0px 0px 20px;
-  
-  
-  
+  height:100%;
+  border-radius: 20px 0px 0px 20px; 
+  padding: 0px;
   
 }
 
-.aside-card-1 div
+.aside__card_1 div, .aside__card_2 div, .aside__card_3 div
 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border-radius: 0px 20px 20px 0px;
-  padding: 5px;
-  width: 100%;
-  height: 134px;
-  
-  
+  align-self: flex-start;
+  width: 42%;
+  height: 100%;
+  text-align: left;
 }
 
-.aside-card-1 h2
+div h2,div p
 {
+  font-size: 110%;
 
-  font-size: 1em;
-  margin-top: 5px;
-  margin-bottom: 0%;
-  width: 80%;
 }
-
-.aside-card-1 p
-
+.aside__card_1 h2, .aside__card_2 h2, .aside__card_3 h2
 {
-  font-size: 0.9em;
-  top: 5px;
-  margin-top: -15px;
-  width: 100%;
-  
-}
-
-.aside-card-1 i
-{
-  display: inline;
-  width: 0.1em;
-  height: 0.1em;
-  margin-top: 10px;
+  width: 90%;
   margin-bottom: 0px;
-  margin-right: 16px;
 }
 
-.aside-card-1:hover
+.aside__card_1 p, .aside__card_2 p, .aside__card_3 p
+
+{
+  width: 100%; 
+  margin-top: 10px;
+}
+
+
+
+.aside__card_1:hover, .aside__card_2:hover,.aside__card_3:hover
 {
   transform: scale(1.1);
   box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
   border: 1px solid #0065FC;
 }
-
-
-/*-------------------------Aside carte 2--------------------------*/
-
-
-
-
-.aside-card-2
-{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  background-color: white;
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border-radius: 20px;
-  width: 100%;
-  max-height: 144px;
-  height: 144px;
-  
-
-}
-
-
-.aside-card-2 img
-{
-  object-fit: cover;
-  min-width: 132px;
-  width: 100%;
-  height: 144px;
-  padding: 5px;
-  margin-top: 4px;
-  border-radius: 20px 0px 0px 20px;
-   
-} 
-
-.aside-card-2 div
-{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border-radius: 0px 20px 20px 0px;
-  padding: 5px;
-  width: 100%;
-  height: 134px;
-  
-  
-  
-  
-}
-
-.aside-card-2 h2
-{
-
-  font-size: 1em;
-  margin-top: 5px;
-  margin-bottom: 0%;
-  width: 80%;
-}
-
-.aside-card-2 p
-
-{
-  font-size: 0.9em;
-  top: 5px;
-  margin-top: -15px;
-  width: 100%;
-  
-}
-
-.aside-card-2 i
-{
-  display: inline;
-  width: 0.1em;
-  height: 0.1em;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  margin-right: 16px;
-}
-
-.aside-card-2:hover
-{
-  transform: scale(1.1);
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border: 1px solid #0065FC;
-}
-
-/*----------------------------Aside carte 3-----------------------*/
-
-.aside-card-3
-{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  background-color: white;
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border-radius: 20px;
-  width: 100%;
-  max-height: 144px;
-  height: 144px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  
-
-}
-
-
-.aside-card-3 img
-{
-  object-fit: cover;
-  min-width: 132px;
-  width: 100%;
-  height: 144px;
-  padding: 5px;
-  margin-top: 4px;
-  border-radius: 20px 0px 0px 20px;
-   
-} 
-.aside-card-3 div
-{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border-radius: 0px 20px 20px 0px;
-  padding: 5px;
-  width: 100%;
-  height: 134px;
-  
-  
-}
-
-.aside-card-3 h2
-{
-
-  font-size: 1em;
-  margin-top: 5px;
-  margin-bottom: 0%;
-  width: 80%;
-}
-
-.aside-card-3 p
-
-{
-  font-size: 0.9em;
-  top: 5px;
-  margin-top: -15px;
-  width: 100%;
-  
-}
-
-.aside-card-3 i
-{
-  display: inline;
-  width: 0.1em;
-  height: 0.1em;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  margin-right: 16px;
-}
-.aside-card-3:hover
-{
-  transform: scale(1.1);
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border: 1px solid #0065FC;
-}
-
 
 /*------------------------------Section Activitees a Marseille-----------------------*/
 
@@ -1893,350 +619,136 @@ aside h2
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  width: 94.5%;
-  height: 24%;
-  margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
-
-   
+  width: 100%;
+  margin-top: 40px;       
 }
 
-/*------------------------------------Carte 1----------------------------------------*/
-.underbox-for-breakpoint-1
+/*------------------------------------Cartes ----------------------------------------*/
+.underbox_4responsive-1, .underbox_4responsive-2
 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 50%;
-  margin-right: 30px;
-  
-  
+  width: 50%; 
+  height: 445px;
+  margin-right: 20px;
+  margin-left: 0px;
+  padding: 0px;
 }
 
-.activites-card-1
+.underbox_4responsive-2
 {
-  display: flex;
-  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+.activites__card-1,.activites__card-2,.activites__card-3, .activites__card-4,.activites__card-5,.activites__card-6 
+{
   background-color: white;
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
+  border-radius: 20px;
+  border: none;
+  padding: 0px;
+}
+
+.activites__card-1, .activites__card-4
+{
   box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
   border-radius: 20px;
   margin-right: 45px;
   width: 46%;
   height: 445px;
+  padding: 0px;
 }
 
-.activites-card-1 img
+.activites__card-1 img,.activites__card-2 img,.activites__card-3 img, .activites__card-4 img,.activites__card-5 img,.activites__card-6 img
 {
   object-fit: cover;
   width: 100%;
-  height: 445px;
+  height: 100%;
   border-radius: 20px 20px 20px 20px;
   
 }
 
-.activites-card-1 div
+.activites__card-1 div,.activites__card-2 div,.activites__card-3 div, .activites__card-4 div, .activites__card-5 div,.activites__card-6 div
 {
+  display: flex;
   position: relative;
   background-color: white;
   border-radius: 0px 0px 20px 20px;
   width: 100%;
-  bottom: 56px;
+  bottom: 59px;
   height: 56px;
+  text-align: left;
 }
 
-.activites-card-1 h2
+.activites__card-1 h2,.activites__card-2 h2,.activites__card-3 h2, .activites__card-4 h2, .activites__card-5 h2,.activites__card-6 h2
 {
-  font-size: 1em;
+  font-size: 110%;
   margin-left: 20px;
   margin-top: 20px;
 }
 
-.activites-card-1:hover
+.activites__card-1:hover,.activites__card-2:hover,.activites__card-3:hover, .activites__card-4:hover,.activites__card-5:hover,.activites__card-6:hover
 {
   transform: scale(1.1);
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
- 
+  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1; 
 }
 
-
-
-/*------------------------------Rassemblement en colonne des Carte 1 et 2------------------------------*/
-
-.card-2-3
+.card__2-3,.card__5-6
 {
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 20px;
   width: 46%;
   height: 445px;
-
+  padding: 0px;
 }
 
-/*------------------------------------Carte 2----------------------------------------*/
 
-.card-2-3 .activites-card-2
-{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border-radius: 20px;
-  width: 100%;
+.activites__card-2
+{ 
   height: 235px;
 }
 
-.activites-card-2 img
+.activites__card-2 img
 {
   object-fit: cover;
-  width: 100%;
-  height: 235px;
-  border-radius: 20px 20px 20px 20px;
-  
+  height: 235px;  
 }
 
-.activites-card-2 div
+.activites__card-3
 {
- 
-  position: relative;
-  background-color: white;
-  border-radius: 0px 0px 20px 20px;
-  width: 100%;
-  bottom: 56px;
-  height: 56px;
-}
-
-.activites-card-2 h2
-{
-  font-size: 1em;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-.activites-card-2:hover
-{
-  transform: scale(1.1);
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  
-}
-
-
-
-/*------------------------------------Carte 3----------------------------------------*/
-
-.card-2-3 .activites-card-3
-{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border-radius: 20px;
-  width: 100%;
   height: 166px;
 }
 
-.activites-card-3 img
+.activites__card-3 img
 {
   object-fit: cover;
-  width: 100%;
-  height: 166px;
-  border-radius: 20px 20px 20px 20px;
-  
+  height: 166px;  
 }
 
-.activites-card-3 div
+.activites__card-5
 {
-  position: relative;
-  background-color: white;
-  border-radius: 0px 0px 20px 20px;
-  width: 100%;
-  bottom: 56px;
-  height: 56px;
-}
-
-.activites-card-3 h2
-{
-  font-size: 1em;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-.activites-card-3:hover
-{
-  transform: scale(1.1);
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  
-}
-
-
-
-/*------------------------------------Carte 4----------------------------------------*/
-.underbox-for-breakpoint-2
-{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 50%;
-  
-}
-
-
-.activites-card-4
-{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border-radius: 20px;
-  margin-right: 45px;
-  width: 46%;
-  height: 445px;
-}
-
-.activites-card-4 img
-{
-  object-fit: cover;
-  width: 100%;
-  height: 445px;
-  border-radius: 20px 20px 20px 20px;
-  
-}
-
-.activites-card-4 div
-{
-  position: relative;
-  background-color: white;
-  border-radius: 0px 0px 20px 20px;
-  width: 100%;
-  bottom: 56px;
-  height: 56px;
-}
-
-.activites-card-4 h2
-{
-  font-size: 1em;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-.activites-card-4:hover
-{
-  transform: scale(1.1);
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  
-}
-
-
-
-/*------------------------------Rassemblement en colonne des Carte 5 et 6------------------------------*/
-
-
-.card-5-6
-{
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-radius: 20px;
-  margin: 0px;
-  width: 46%;
-  height: 445px;
-
-}
-
-/*------------------------------------Carte 5----------------------------------------*/
-
-.activites-card-5
-{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border-radius: 20px;
-  width: 100%;
   height: 196px;
 }
 
-.activites-card-5 img
+.activites__card-5 img
 {
   object-fit: cover;
-  width: 100%;
-  height: 196px;
-  border-radius: 20px 20px 20px 20px;
-  
+  height: 196px;  
 }
 
-.activites-card-5 div
+.activites__card-6
 {
-  position: relative;
-  background-color: white;
-  border-radius: 0px 0px 20px 20px;
-  width: 100%;
-  bottom: 56px;
-  height: 56px;
-}
-
-.activites-card-5 h2
-{
-  font-size: 1em;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-.activites-card-5:hover
-{
-  transform: scale(1.1);
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  
-}
-
-
-/*------------------------------------Carte 6----------------------------------------*/
-
-.activites-card-6
-{
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  border-radius: 20px;
-  width: 100%;
   height: 209px;
 }
 
-.activites-card-6 img
+.activites__card-6 img
 {
   object-fit: cover;
-  width: 100%;
-  height: 209px;
-  border-radius: 20px 20px 20px 20px;
-  
-}
-
-.activites-card-6 div
-{
-  position: relative;
-  background-color: white;
-  border-radius: 0px 0px 20px 20px;
-  width: 100%;
-  bottom: 56px;
-  height: 56px;
-}
-
-.activites-card-6 h2
-{
-  font-size: 1em;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-.activites-card-6:hover
-{
-  transform: scale(1.1);
-  box-shadow: 3px 3px 10px #e1e1e1,-3px -3px 10px #e1e1e1;
-  
+  height: 209px;  
 }
 
 /*---------------------------------------------Footer----------------------------------------------*/
@@ -2246,43 +758,34 @@ aside h2
   background-color: #F2F2F2;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 40px;
   margin-top: 10px;
   width: 100%;
   height: 12%;
 }
 
-
-/*-----------------------------------Liste nav index footer 1--------------------------------------*/
-
-.footer-nav-1
+.index-footer h2,.index-footer a
 {
-  width: 302px;
-  height: 185px;
+  font-size: 100%;
 }
-
-.footer-nav-1 h2
+.index-footer ul
 {
-  font-size: 1.3em;
-}
-
-.footer-nav-1 ul
-{
-  
   padding: 0px;
   margin: 0px;
 }
-.footer-nav-1 li
+.index-footer li
 {
   list-style: none;
-  padding: 0px;
-  margin: 10px;
-  margin-left: 0px;
+  margin: 15px;
+  margin-left: 10px;
+}
+
+.footer__nav-1,.footer__nav-2,.footer__nav-3
+{
+  width: 302px;
+  height: 185px;
+  margin-right: 130px;
 }
 
 .lien-footer
@@ -2292,62 +795,6 @@ aside h2
   padding: 0px;
   color: black;
 }
-/*-----------------------------------Liste nav index footer 2--------------------------------------*/
-
-
-.footer-nav-2
-{
-  width: 302px;
-  height: 185px;
-}
-
-.footer-nav-2 h2
-{
-  font-size: 1.3em;
-}
-
-.footer-nav-2 ul
-{
-  
-  padding: 0px;
-  margin: 0px;
-}
-.footer-nav-2 li
-{
-  list-style: none;
-  padding: 0px;
-  margin: 10px;
-  margin-left: 0px;
-}
-
-
-/*-----------------------------------Liste nav index footer 1--------------------------------------*/
-
-.footer-nav-3
-{
-
-  width: 302px;
-  height: 185px;
-}
-
-.footer-nav-3 h2
-{
-  font-size: 1.3em;
-}
-
-.footer-nav-3 ul
-{
-  
-  padding: 0px;
-  margin: 0px;
-}
-.footer-nav-3 li
-{
-  list-style: none;
-  padding: 0px;
-  margin: 10px;
-  margin-left: 0px;
-}
 
 
 /*---------------------------------Media Queries-----------------------------------*/
@@ -2356,682 +803,190 @@ aside h2
 
 @media screen and  (max-width: 1400px) /*rajout d'un breakpoint*/
 {
-  #bloc_page
-  {
-    width: 100%;
-    height: auto;
-  }
-  h2, p 
-  {
-    font-size: 95%;
-  }
-
-  .search-form-filtre
-  {
-    flex-wrap: nowrap;
-    
-  }
-  .filtre1, .filtre2,.filtre3,.filtre4
-  {
-    margin: 5px;
-  }
-
-  .resultats-recherche-info p
-  {
-    font-size: 100%;
-  }
-
-  main 
-  {
-    height: auto;
-  }
-
-  .liste-hebergements-marseille
-    {    
-      order: 2;
-      width: 93.5%;            
-    }
-
-  aside
-  {
-    order: 1;
-    width: 94%;
-    height: 40%;
-    margin-left: 40px;
-    margin-bottom: 40px;
-  }
-  
-  .image-aside-card-1 img 
-  {
-    width: 100%;
-  }
-
-  .aside-card-1 div
-  {
-    width: 180%;
-  }
-
-  .aside-card-1 div h2 
-  {
-    font-size: 110%;
-  }
-
-  .aside-card div p 
-  {
-    font-size: 110%;
-  }
-
-  
-
-  .image-aside-card-2 img 
-  {
-    width: 105%;
-  }
-
-  .aside-card-2 div
-  {
-    width: 180%;
-  }
-
-  .aside-card-2 div h2 
-  {
-    font-size: 110%;
-  }
-  
-  .aside-card-2 div p 
-  {
-    font-size: 110%;
-  }
-
-
-  .image-aside-card-3 img 
-  {
-    width: 150%;
-  }
-
-  .aside-card-3 div
-  {
-    width: 180%;
-  }
-
-  .aside-card-3 div h2 
-  {
-    font-size: 110%;
-  }
-  
-  .aside-card-3 div p 
-  {
-    font-size: 110%;
-  }
- 
-  .activites-marseille
-  {
-    width: 94%;
-    order: 3;
-    margin-bottom: 40px;
-  }
-
-  .index-footer
-  {
-    height: auto;
-  }
-
-}
-
-/*-----------------------------Breakpoint 1280px--------------------------------*/
-
-
-@media screen and (max-width:1280px)
-{
-  .search-form-filtre
-  {
-    width: 50%;
-    flex-wrap: wrap;
-  }
-}   
-
-/*----------------------------Breakpoint 1249px--------------------------------*/
-
-
-@media screen and (max-width:1249px)
-{
-  .search-form-filtre
-  {
-    width: 40%;
-    flex-wrap: wrap;
-  }
-
-  .image-aside-card-2 img 
-  {
-    width: 100%;
-  }
-
-  .aside-card-2 div
-  {
-    width: 180%;
-  }
-
-
-  .image-aside-card-3 img 
-  {
-    width: 140%;
-  }
-
-  .aside-card-3 div
-  {
-    width: 180%;   
-  }
-
-  .activites-marseille
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .underbox-for-breakpoint-1, .underbox-for-breakpoint-2
-  {
-    width: 100%;
-    height: auto;
-    margin-right: 40px;
-    margin-bottom: 40px;
-  }
-  
-}      
-
-/*-----------------------------Breakpoint 1210px--------------------------------*/
-
-@media screen and (max-width:1210px)
-{
-
-  .image-aside-card-3 img 
-  {
-    width: 135%;
-  }
-
-  .aside-card-3 div
-  {
-    width: 180%;
-  }
-  
-} 
-
-/*-------------------------------Breakpoint 1176px-----------------------------*/
-
-@media screen and (max-width:1176px)
-{
-
-  .image-aside-card-3 img 
-  {
-    width: 130%;
-  }
-
-  .aside-card-3 div
-  {
-    width: 180%;
-  }
-  
-}  
-
-/*------------------------------Breakpoint 1133px------------------------------*/
-
-
-
-@media screen and (max-width:1133px)
-{
-
-  .image-aside-card-3 img 
-  {
-    width: 125%;
-  }
-
-  .aside-card-3 div
-  {
-    width: 180%;
-  }
-  
-} 
-
-/*-----------------------------Breakpoint 1092px--------------------------------*/
-
-
-@media screen and (max-width:1092px)
-{
-  .search-button 
-  {
-    border-radius: 20px;
-  }
-
-  .search
+  .search-form1 .search
   {
     display: none;
   }
 
-
-  .search-icon
+  .search-form1 .search-icon
   {
-    display: inline;
-    font-size: 150%;
+    display: flex;
   }
 
-  .image-aside-card-3 img 
+  .hebergement-marseille, aside, .activites-marseille,.underbox_4responsive-1, .underbox_4responsive-2
   {
-    width: 120%;
-  }
-
-  .aside-card-3 div
-  {
-    width: 180%;
-  }
-
-  
-} 
-
-/*----------------------------Breakpoint 1043px--------------------------------*/
-
-
-
-@media screen and (max-width:1043px)
-{
-
-  .search-icon
-  {
-    display: inline;
-    font-size: 120%;
-  }
-
-  .search-form-filtre
-  {
-    width: 30%;
-    flex-wrap: wrap;
-  }
-
-  .image-aside-card-3 img 
-  {
-    width: 115%;
-  }
-
-  .aside-card-3 div
-  {
-    width: 180%;
+    width: 100%;
+    margin: 20px;
   }
   
-} 
+  .hebergement-marseille
+    {    
+      order: 2;          
+    }
 
-/*----------------------------Breakpoint 1011px--------------------------------*/
-
-
-
-@media screen and (max-width:1011px)
-{
-
-  .image-aside-card-3 img 
+  aside
   {
-    width: 110%;
+    order: 1;  
   }
-
-  .aside-card-3 div
+  .hebergement-marseille, aside
   {
-    width: 180%;
+    padding: 50px;
+    padding-top: 40px;
   }
   
-}
-
-/*----------------------------Breakpoint 992px--------------------------------*/
-
-
-
-@media screen and  (max-width: 992px)
-{
-
-  .logo
-  {
-    margin-left: 45px;
-  }
-
-  .search-form-filtre
-  {
-    width: 20%;
-    flex-wrap: wrap;
-  }
-  .filtre4 div p
-  {
-    position: absolute;
-    margin-left: 55px;
-    bottom: -13px;
-    font-weight: bold;
-    font-size: 100%;
-  }
-
-  main
-  {
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    padding: 20px;
-  }
-
-  h2 
-  {
-   font-size: 90%;
-  }
-
-  p 
-  {
-   font-size: 50%;
-  }
-
-  .liste-hebergements-marseille, aside, .activites-marseille
-  {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .image-aside-card-3 img 
-  {
-    width: 105%;
-  }
-
-  .aside-card-3 div
-  {
-    width: 180%;
-  }
-
   .activites-marseille
   {
-    margin-bottom: 10px;
+    order: 3;
+    flex-direction: column;
   }
-
-
-  .card-2-3, .card-5-6
-  {
-    margin-left: 15px;
-  }
-
 
   .index-footer
   {
-    margin-top: 0;
-    flex-wrap: nowrap;   
-  }
-   
-  
-  }
-
- /*-----------------------------Breakpoint 900px-------------------------------*/ 
-
-
-
-@media screen and  (max-width: 900px)
-{
-  
-  .search-form-filtre
-  {
-    width: 60%;
-  }
-
-
-  .filtre4 div p
-  {
-    position: absolute;
-    margin-left: 55px;
-    bottom: -5px;
-    font-weight: bold;
-    font-size: 100%;
-  }
-
-  
-}
-
-/*-----------------------------Breakpoint 854px-------------------------------*/
-
-
-
-@media screen and  (max-width: 854px)
-{
-
-  .card-2-3, .card-5-6
-  {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 100%;
-  }
-
-  .activites-card-1, .activites-card-2, .activites-card-3, .activites-card-4, .activites-card-5 .activites-card-6
-  {
-    width: 100%;
-    margin: 0px;
-  }
-}
-
-/*-----------------------------Breakpoint 768px-------------------------------*/
-
-
-
-@media screen and  (max-width: 768px)
-{
-
-  .underbox-card-1-2-3, .underbox-card-4-5-6
-  {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .resultat-card1, .resultat-card2, .resultat-card3, .resultat-card4, .resultat-card5, .resultat-card6
-  {
-    width: 80%;
-    height: 100%;
-  }
-  .index-footer
-  {
-    justify-content: space-between;
-    flex-direction: column;
-    flex-wrap: wrap;
     margin-top: 0px;
   }
+  
 }
 
 
-/*-----------------------------Breakpoint 500px-------------------------------*/
 
+@media screen and  (max-width: 992px) and (min-width:768px){
 
+  aside
+  {
+    margin-top: 0px;
+  }
 
-@media screen and  (max-width: 500px)
-{
+  .container-aside-card
+  {
+    padding: 40px;
+    padding-top: 0px;
+  }
 
-  .index-header
+}
+
+@media screen and  (max-width: 768px) and (min-width:375px){
+
+  #container
+  {
+    padding: 0px;
+    margin: 0px;
+  } 
+
+  .index-header,.search-section,.hebergement-marseille,aside, .activites-marseille
+  {
+    justify-content: center;
+    padding: 10px;
+    margin: 0px;
+  }
+  .navigation__header
   {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 0;
-    width: 100%;
   }
 
-  .header-logo
+  .navigation__header img
   {
-    margin-top: 40px;
-    margin-left: 60%;
+    width:100px;
+    height: 48px;
+    margin-left: 20px;
+  }
+
+  .navigation__header ul
+  {
+    display: flex;
     width: 100%;
+    padding: 0px;
+    justify-content: center;
+      
   }
   
-
-  .header-nav
+  .navigation__header li a
   {
-    justify-content: stretch;
-    width: 90%;
-    margin: 0;   
-  }
- 
-  .link-hebergements
-  {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    height: 100px;
-    width: 100%;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0px;
+    margin-top: 20px;
   }
 
-  .link-activites
+  .navigation__header li a:hover
   {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    height: 100px;
-    width: 100%;   
-  }
-
-  .header-nav a
-
-  {
-    font-size: 100%;
-    border-bottom: 1px solid #F2F2F2;
-    margin: 0;    
-  }
-
-  .header-nav a:hover
-  {
-    border-top: none;
     border-bottom: 3px solid #0065FC;
+    border-top: none;
   }
+
+  .filtres h2
+  {
+    width: 100%;
+  }
+
   
-  .input-search1
-  {
-    width: 45%;
-  }
-  .search-icon
-  {
-    display: inline;
-    font-size: 100%;
-  }
-
-  .search-section
-  {
-    margin-right: 0px;
-  }
-  
-  .trouver-hebergement, .slogan, .search-form1, .search-form-filtre, .resultats-recherche-info
-  {
-    margin-left: 10px;
-  }
-
-  .filtre4 div p
-  {
-    position: absolute;
-    margin-left: 55px;
-    bottom: -5px;
-    font-weight: bold;
-    font-size: 100%;
-  }
-
-  .resultats-recherche-info 
-  {
-    flex-wrap: nowrap;
-    height: auto;   
-  }
-
   .resultats-recherche-info i
   {
-    align-self: flex-start;
-    margin-top: 13px;  
-  }
-  
-  main 
-  {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+    align-self: baseline;
   }
 
-  .liste-hebergements-marseille
+  .resultats-recherche-info p
+{
+  margin: 5px;
+}
+
+  
+
+  .hebergement-marseille
   {
-    width: 100%;
-    padding: 20px;
     background-color: white;
   }
 
-  .container-card, .underbox-card-1-2-3, .underbox-card-4-5-6
+  .hebergement-marseille, .container-card, .underbox
   {
+    flex-direction: column;
     width: 100%;
-    height: auto;   
+    height: 100%;   
   }
 
-  .resultat-card1,.resultat-card2, .resultat-card3,.resultat-card4,.resultat-card5,.resultat-card6
+  .underbox
+  {
+    flex-direction: column;
+  }
+
+  .resultat__card1, .resultat__card2, .resultat__card3, .resultat__card4, .resultat__card5, .resultat__card6
   {
     width: 100%;
-    height: auto;
-    font-size: 95%;
+    margin: 20px;
+  }
+
+  aside
+  {
+    border-radius: 0px;
+  }
+
+  .activites-marseille, .underbox_4responsive-1, .underbox_4responsive-2
+  {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .activites__card-1,.activites__card-2,.activites__card-3, .activites__card-4,.activites__card-5,.activites__card-6,.card__2-3,.card__5-6 
+  {
+    width: 100%;
+    margin: 0px;
   }
   
-  aside 
+  .card__2-3,.card__5-6
   {
-    width: 100%;
-    margin: 0;
-    padding: 20px;
+    margin-top: 40px;
   }
 
-  .aside-card-1 div, .aside-card-2 div
+  .index-footer
   {
-    width: 100%;
-    font-size: 80%;
-    margin-left: 5px;
+    flex-direction: column;
   }
-
-  .aside-card-3 div
-  {
-    width: 80%;
-    font-size: 80%;
-    margin-left: 12px;
-  }
-
-  .aside-card-1 h2
-  {
-    font-size: 25%;
-  }
-  .activites-marseille
-  {
-    margin-bottom: 0px;
-  }
-
-  .activites-card-1, .activites-card-4
-  {
-     width: 100%;
-     height: 190px;      
-  }
-
-  .card-2-3, .card-5-6
-  {
-    width: 100%;
-    height: 420px;    
-  }
-  .card-2-3 .activites-card-2
-  {
-    width: 100%;
-    height: 190px;   
-  }
-
-  .activites-card-3
-  {
-    width: 100%;
-    height: 190px;
-  }
-
-  .activites-card-5, .activites-card-6
-  {
-    width: 100%;
-    height: 190px;
-  }
-
-  .activites-card-1 img, .activites-card-2 img, .activites-card-3 img, .activites-card-4 img, .activites-card-5 img, .activites-card-6 img 
-  {
-    width: 100%;
-    height: 190px ;    
-  } 
-
  
 }
+
+
