@@ -86,7 +86,6 @@ a
 {
   text-decoration: none;
   font-weight: 500;
-  color: #0065FC;
   margin-left: 40px;
   padding-top: 58px;
   padding-bottom: 58px;
@@ -96,6 +95,7 @@ a
 .navigation__header li a:hover
 {
   border-top: 3px solid #0065FC;
+  color: #0065FC;
   
 }
 /*-------------------Section recherche--------------------------*/
@@ -1072,8 +1072,7 @@ aside
   {
     transform: none;
     border: unset;
-  }
-  
+  } 
  
 }
 
